@@ -1,0 +1,50 @@
+[
+  {
+    "audience": "family",
+    "certification_target": "U",
+    "max_spoiler_level": "minor",
+    "max_trailer_duration_seconds": 60,
+    "subtitles_required": true,
+    "dialect_review_required": false,
+    "content_rules": [
+      {"category": "frightening", "max_severity": "mild", "guidance": "Suspense is fine; no menacing close-ups or threats held on screen."},
+      {"category": "suggestive", "max_severity": "none", "guidance": "No suggestive content."},
+      {"category": "violence", "max_severity": "none", "guidance": "No physical altercation, including shoves or breaking objects in anger."},
+      {"category": "strong_language", "max_severity": "none", "guidance": "No insults or profanity in audio or subtitles."},
+      {"category": "sensitive_context", "max_severity": "mild", "guidance": "Grief may be referenced gently; no forgery, debt or deathbed detail."},
+      {"category": "misleading_context", "max_severity": "none", "guidance": "Never cut material so it implies events or relationships that do not occur."}
+    ]
+  },
+  {
+    "audience": "young_adult",
+    "certification_target": "U/A 13+",
+    "max_spoiler_level": "moderate",
+    "max_trailer_duration_seconds": 90,
+    "subtitles_required": true,
+    "dialect_review_required": false,
+    "content_rules": [
+      {"category": "frightening", "max_severity": "moderate", "guidance": "Tension and menace allowed; no sustained horror framing."},
+      {"category": "suggestive", "max_severity": "mild", "guidance": "Mild romantic implication only."},
+      {"category": "violence", "max_severity": "moderate", "guidance": "Brief confrontation allowed if it stays in context; no injury detail."},
+      {"category": "strong_language", "max_severity": "mild", "guidance": "Mild insults allowed in audio; do not burn them into subtitles."},
+      {"category": "sensitive_context", "max_severity": "moderate", "guidance": "Family conflict and loss may be shown with context."},
+      {"category": "misleading_context", "max_severity": "none", "guidance": "Never cut material so it implies events or relationships that do not occur."}
+    ]
+  },
+  {
+    "audience": "dialect_region",
+    "certification_target": "U/A 7+",
+    "max_spoiler_level": "minor",
+    "max_trailer_duration_seconds": 75,
+    "subtitles_required": true,
+    "dialect_review_required": true,
+    "content_rules": [
+      {"category": "frightening", "max_severity": "mild", "guidance": "Suspense allowed; avoid threatening imagery."},
+      {"category": "suggestive", "max_severity": "none", "guidance": "No suggestive content."},
+      {"category": "violence", "max_severity": "mild", "guidance": "Raised voices and implied tension only; no physical contact."},
+      {"category": "strong_language", "max_severity": "none", "guidance": "No insults, including regional terms, in audio or subtitles."},
+      {"category": "sensitive_context", "max_severity": "moderate", "guidance": "Mourning customs may be shown respectfully and accurately."},
+      {"category": "misleading_context", "max_severity": "none", "guidance": "Never imply kinship that does not exist, e.g. presenting an honorific 'Kaka' as a blood relative."}
+    ]
+  }
+]

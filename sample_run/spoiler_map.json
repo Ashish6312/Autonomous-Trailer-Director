@@ -1,0 +1,365 @@
+{
+  "evidence_fingerprint": "f855637bbf6a9b74",
+  "audience_ceilings": {
+    "family": "minor",
+    "young_adult": "moderate",
+    "dialect_region": "minor"
+  },
+  "protected_reveals": [
+    {
+      "scene_id": "SC08",
+      "spoiler_level": "moderate",
+      "dialogue_ids": [
+        "DLG_032",
+        "DLG_034"
+      ]
+    },
+    {
+      "scene_id": "SC09",
+      "spoiler_level": "moderate",
+      "dialogue_ids": [
+        "DLG_035"
+      ]
+    },
+    {
+      "scene_id": "SC10",
+      "spoiler_level": "major",
+      "dialogue_ids": [
+        "DLG_039",
+        "DLG_040",
+        "DLG_041",
+        "DLG_042",
+        "DLG_043"
+      ]
+    },
+    {
+      "scene_id": "SC11",
+      "spoiler_level": "moderate",
+      "dialogue_ids": [
+        "DLG_044",
+        "DLG_045"
+      ]
+    },
+    {
+      "scene_id": "SC12",
+      "spoiler_level": "moderate",
+      "dialogue_ids": [
+        "DLG_047"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "SC01",
+      "spoiler_level": "none",
+      "protected_reveal": false,
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "scene_id": "SC02",
+      "spoiler_level": "none",
+      "protected_reveal": false,
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "scene_id": "SC03",
+      "spoiler_level": "minor",
+      "protected_reveal": false,
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "scene_id": "SC04",
+      "spoiler_level": "minor",
+      "protected_reveal": false,
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "scene_id": "SC05",
+      "spoiler_level": "minor",
+      "protected_reveal": false,
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "scene_id": "SC06",
+      "spoiler_level": "none",
+      "protected_reveal": false,
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "scene_id": "SC07",
+      "spoiler_level": "minor",
+      "protected_reveal": false,
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "scene_id": "SC08",
+      "spoiler_level": "moderate",
+      "protected_reveal": true,
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "allowed",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "scene_id": "SC09",
+      "spoiler_level": "moderate",
+      "protected_reveal": true,
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "allowed",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "scene_id": "SC10",
+      "spoiler_level": "major",
+      "protected_reveal": true,
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "scene_id": "SC11",
+      "spoiler_level": "moderate",
+      "protected_reveal": true,
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "allowed",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "scene_id": "SC12",
+      "spoiler_level": "moderate",
+      "protected_reveal": true,
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "allowed",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    }
+  ],
+  "lines": [
+    {
+      "dialogue_id": "DLG_014",
+      "scene_id": "SC03",
+      "spoiler_level": "minor",
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "dialogue_id": "DLG_017",
+      "scene_id": "SC04",
+      "spoiler_level": "minor",
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "dialogue_id": "DLG_018",
+      "scene_id": "SC04",
+      "spoiler_level": "minor",
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "dialogue_id": "DLG_019",
+      "scene_id": "SC04",
+      "spoiler_level": "minor",
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "dialogue_id": "DLG_023",
+      "scene_id": "SC05",
+      "spoiler_level": "minor",
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "dialogue_id": "DLG_030",
+      "scene_id": "SC07",
+      "spoiler_level": "minor",
+      "audiences": {
+        "family": "allowed",
+        "young_adult": "allowed",
+        "dialect_region": "allowed"
+      }
+    },
+    {
+      "dialogue_id": "DLG_031",
+      "scene_id": "SC08",
+      "spoiler_level": "minor",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "allowed",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "dialogue_id": "DLG_032",
+      "scene_id": "SC08",
+      "spoiler_level": "moderate",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "allowed",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "dialogue_id": "DLG_034",
+      "scene_id": "SC08",
+      "spoiler_level": "moderate",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "allowed",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "dialogue_id": "DLG_035",
+      "scene_id": "SC09",
+      "spoiler_level": "moderate",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "allowed",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "dialogue_id": "DLG_037",
+      "scene_id": "SC09",
+      "spoiler_level": "minor",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "allowed",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "dialogue_id": "DLG_039",
+      "scene_id": "SC10",
+      "spoiler_level": "moderate",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "dialogue_id": "DLG_040",
+      "scene_id": "SC10",
+      "spoiler_level": "major",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "dialogue_id": "DLG_041",
+      "scene_id": "SC10",
+      "spoiler_level": "major",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "dialogue_id": "DLG_042",
+      "scene_id": "SC10",
+      "spoiler_level": "major",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "dialogue_id": "DLG_043",
+      "scene_id": "SC10",
+      "spoiler_level": "major",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "dialogue_id": "DLG_044",
+      "scene_id": "SC11",
+      "spoiler_level": "moderate",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "allowed",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "dialogue_id": "DLG_045",
+      "scene_id": "SC11",
+      "spoiler_level": "moderate",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "allowed",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    },
+    {
+      "dialogue_id": "DLG_047",
+      "scene_id": "SC12",
+      "spoiler_level": "moderate",
+      "audiences": {
+        "family": "blocked (SPOILER_LEVEL_EXCEEDED)",
+        "young_adult": "allowed",
+        "dialect_region": "blocked (SPOILER_LEVEL_EXCEEDED)"
+      }
+    }
+  ]
+}

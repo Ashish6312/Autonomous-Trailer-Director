@@ -1,0 +1,11 @@
+[
+  {"prop_id": "PROP_LETTER_01", "name": "Shankar's letter", "description": "Blue inland letter written by Shankar before his death, addressed to Kamla and Arjun, marked 'open when Meera is home'.", "importance": "high"},
+  {"prop_id": "PROP_TIN_BOX_01", "name": "Kamla's tin box", "description": "Dented tin box where Kamla keeps family papers; the letter should have been inside.", "importance": "medium"},
+  {"prop_id": "PROP_SUITCASE_01", "name": "Meera's suitcase", "description": "Worn blue suitcase Meera arrives with.", "importance": "low"},
+  {"prop_id": "PROP_BICYCLE_01", "name": "Bansi's post bicycle", "description": "Old black bicycle with a khaki mail bag on the carrier.", "importance": "low"},
+  {"prop_id": "PROP_PHOTO_01", "name": "Shankar's photograph", "description": "Garlanded framed photograph of Shankar in the courtyard.", "importance": "medium"},
+  {"prop_id": "PROP_LANTERN_01", "name": "Brass lantern", "description": "Brass hurricane lantern hanging by the courtyard door; shatters during the confrontation.", "importance": "low"},
+  {"prop_id": "PROP_MONEY_ORDER_01", "name": "Money-order slips", "description": "Monthly money-order slips from Delhi, always received in Raghav's name.", "importance": "high"},
+  {"prop_id": "PROP_LEDGER_01", "name": "Raghav's ledger", "description": "Shop ledger with loan-repayment entries hidden among cloth accounts.", "importance": "medium"},
+  {"prop_id": "PROP_LETTER_02", "name": "Registered letter from Delhi", "description": "Registered-post envelope addressed to Meera in unfamiliar handwriting; the episode's cliffhanger.", "importance": "medium"}
+]

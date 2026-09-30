@@ -1,0 +1,958 @@
+{
+  "evidence_fingerprint": "f855637bbf6a9b74",
+  "engine_rules": [
+    {
+      "rule_id": "SOURCE_SCENE_001",
+      "category": "source/timecode validity",
+      "checks": "the clip's scene exists",
+      "evidence": [
+        "episode/scenes.json"
+      ],
+      "reason_codes": [
+        "SCENE_NOT_FOUND"
+      ],
+      "blocking_codes": [
+        "SCENE_NOT_FOUND"
+      ],
+      "review_codes": []
+    },
+    {
+      "rule_id": "SOURCE_DIALOGUE_001",
+      "category": "source/timecode validity",
+      "checks": "every declared line exists and belongs to the clip's scene",
+      "evidence": [
+        "episode/dialogue.json"
+      ],
+      "reason_codes": [
+        "DIALOGUE_NOT_FOUND",
+        "DIALOGUE_SCENE_MISMATCH"
+      ],
+      "blocking_codes": [
+        "DIALOGUE_NOT_FOUND",
+        "DIALOGUE_SCENE_MISMATCH"
+      ],
+      "review_codes": []
+    },
+    {
+      "rule_id": "SOURCE_MUSIC_001",
+      "category": "source/timecode validity",
+      "checks": "the music asset exists",
+      "evidence": [
+        "rights/music.json"
+      ],
+      "reason_codes": [
+        "MUSIC_NOT_FOUND"
+      ],
+      "blocking_codes": [
+        "MUSIC_NOT_FOUND"
+      ],
+      "review_codes": []
+    },
+    {
+      "rule_id": "TIMECODE_CLIP_001",
+      "category": "source/timecode validity",
+      "checks": "source_in/source_out lie inside the scene",
+      "evidence": [
+        "episode/scenes.json"
+      ],
+      "reason_codes": [
+        "CLIP_STARTS_BEFORE_SCENE",
+        "CLIP_ENDS_AFTER_SCENE"
+      ],
+      "blocking_codes": [
+        "CLIP_STARTS_BEFORE_SCENE",
+        "CLIP_ENDS_AFTER_SCENE"
+      ],
+      "review_codes": []
+    },
+    {
+      "rule_id": "TIMECODE_DIALOGUE_001",
+      "category": "source/timecode validity",
+      "checks": "declared lines lie fully inside the cut; audible undeclared lines are flagged",
+      "evidence": [
+        "episode/dialogue.json"
+      ],
+      "reason_codes": [
+        "DIALOGUE_OUTSIDE_CLIP",
+        "UNDECLARED_DIALOGUE_IN_CLIP"
+      ],
+      "blocking_codes": [
+        "DIALOGUE_OUTSIDE_CLIP"
+      ],
+      "review_codes": [
+        "UNDECLARED_DIALOGUE_IN_CLIP"
+      ]
+    },
+    {
+      "rule_id": "SPOILER_001",
+      "category": "spoiler",
+      "checks": "scene and line spoiler levels are within the audience's ceiling",
+      "evidence": [
+        "episode/scenes.json",
+        "episode/dialogue.json",
+        "policies/rating_policies.json"
+      ],
+      "reason_codes": [
+        "SPOILER_LEVEL_EXCEEDED"
+      ],
+      "blocking_codes": [
+        "SPOILER_LEVEL_EXCEEDED"
+      ],
+      "review_codes": []
+    },
+    {
+      "rule_id": "RATING_CONTENT_001",
+      "category": "rating policy / audience safety",
+      "checks": "sensitive content per category is within the audience's limit",
+      "evidence": [
+        "episode/scenes.json",
+        "episode/dialogue.json",
+        "policies/rating_policies.json"
+      ],
+      "reason_codes": [
+        "CONTENT_SEVERITY_EXCEEDED"
+      ],
+      "blocking_codes": [
+        "CONTENT_SEVERITY_EXCEEDED"
+      ],
+      "review_codes": []
+    },
+    {
+      "rule_id": "CONTEXT_MISLEADING_001",
+      "category": "story truth",
+      "checks": "no line flagged as misleading out of context; flagged scenes need an editor's check",
+      "evidence": [
+        "episode/scenes.json",
+        "episode/dialogue.json"
+      ],
+      "reason_codes": [
+        "MISLEADING_DIALOGUE_IN_CLIP",
+        "MISLEADING_SCENE_CONTEXT"
+      ],
+      "blocking_codes": [
+        "MISLEADING_DIALOGUE_IN_CLIP"
+      ],
+      "review_codes": [
+        "MISLEADING_SCENE_CONTEXT"
+      ]
+    },
+    {
+      "rule_id": "STORY_TRUTH_RELATIONSHIP_001",
+      "category": "story truth / cultural",
+      "checks": "a kinship word used to address someone matches the recorded relationship",
+      "evidence": [
+        "episode/dialogue.json",
+        "episode/characters.json",
+        "episode/scenes.json"
+      ],
+      "reason_codes": [
+        "MISLEADING_RELATIONSHIP"
+      ],
+      "blocking_codes": [
+        "MISLEADING_RELATIONSHIP"
+      ],
+      "review_codes": []
+    },
+    {
+      "rule_id": "RIGHTS_MUSIC_PROMO_001",
+      "category": "music rights / territory",
+      "checks": "music is cleared for promotion, this audience, territory and date",
+      "evidence": [
+        "rights/music.json"
+      ],
+      "reason_codes": [
+        "PROMOTION_NOT_PERMITTED",
+        "AUDIENCE_NOT_LICENSED",
+        "TERRITORY_NOT_LICENSED",
+        "RIGHTS_NOT_YET_ACTIVE",
+        "PROMOTIONAL_RIGHTS_EXPIRED"
+      ],
+      "blocking_codes": [
+        "PROMOTION_NOT_PERMITTED",
+        "AUDIENCE_NOT_LICENSED",
+        "TERRITORY_NOT_LICENSED",
+        "RIGHTS_NOT_YET_ACTIVE",
+        "PROMOTIONAL_RIGHTS_EXPIRED"
+      ],
+      "review_codes": []
+    },
+    {
+      "rule_id": "RIGHTS_ACTOR_PROMO_001",
+      "category": "actor rights / territory",
+      "checks": "every performer in the scene is cleared for this audience, territory and date",
+      "evidence": [
+        "rights/actors.json",
+        "episode/scenes.json"
+      ],
+      "reason_codes": [
+        "ACTOR_RIGHTS_MISSING",
+        "PROMOTION_NOT_PERMITTED",
+        "AUDIENCE_NOT_LICENSED",
+        "TERRITORY_NOT_LICENSED",
+        "RIGHTS_NOT_YET_ACTIVE",
+        "PROMOTIONAL_RIGHTS_EXPIRED"
+      ],
+      "blocking_codes": [
+        "ACTOR_RIGHTS_MISSING",
+        "PROMOTION_NOT_PERMITTED",
+        "AUDIENCE_NOT_LICENSED",
+        "TERRITORY_NOT_LICENSED",
+        "RIGHTS_NOT_YET_ACTIVE",
+        "PROMOTIONAL_RIGHTS_EXPIRED"
+      ],
+      "review_codes": []
+    },
+    {
+      "rule_id": "RIGHTS_ACTOR_RESTRICTION_001",
+      "category": "contracts / promotional restrictions",
+      "checks": "contract clauses: prohibited scenes block, approval clauses need sign-off",
+      "evidence": [
+        "rights/actors.json"
+      ],
+      "reason_codes": [
+        "CONTRACT_RESTRICTION",
+        "APPROVAL_REQUIRED"
+      ],
+      "blocking_codes": [
+        "CONTRACT_RESTRICTION"
+      ],
+      "review_codes": [
+        "APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "rule_id": "ACCESSIBILITY_SUBTITLE_001",
+      "category": "accessibility",
+      "checks": "lines marked not subtitle-safe are reviewed where subtitles are required",
+      "evidence": [
+        "episode/dialogue.json",
+        "policies/rating_policies.json"
+      ],
+      "reason_codes": [
+        "SUBTITLE_REVIEW_REQUIRED"
+      ],
+      "blocking_codes": [],
+      "review_codes": [
+        "SUBTITLE_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "rule_id": "ACCESSIBILITY_READING_SPEED_001",
+      "category": "accessibility",
+      "checks": "subtitle reading speed above 17 characters per second is reviewed",
+      "evidence": [
+        "episode/dialogue.json",
+        "policies/rating_policies.json"
+      ],
+      "reason_codes": [
+        "SUBTITLE_READING_SPEED_HIGH"
+      ],
+      "blocking_codes": [],
+      "review_codes": [
+        "SUBTITLE_READING_SPEED_HIGH"
+      ]
+    },
+    {
+      "rule_id": "DIALECT_REVIEW_001",
+      "category": "cultural",
+      "checks": "regional address terms are reviewed where the policy requires dialect review",
+      "evidence": [
+        "episode/characters.json",
+        "episode/dialogue.json",
+        "policies/rating_policies.json"
+      ],
+      "reason_codes": [
+        "DIALECT_REVIEW_REQUIRED"
+      ],
+      "blocking_codes": [],
+      "review_codes": [
+        "DIALECT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "rule_id": "PERFORMANCE_NOTE_001",
+      "category": "evidence only",
+      "checks": "historical performance is attached as information; never affects a verdict",
+      "evidence": [
+        "performance/historical_campaigns.json"
+      ],
+      "reason_codes": [
+        "HISTORICAL_PERFORMANCE"
+      ],
+      "blocking_codes": [],
+      "review_codes": []
+    },
+    {
+      "rule_id": "POLICY_DURATION_001",
+      "category": "rating policy",
+      "checks": "total length is within the audience's maximum",
+      "evidence": [
+        "policies/rating_policies.json"
+      ],
+      "reason_codes": [
+        "TRAILER_TOO_LONG"
+      ],
+      "blocking_codes": [
+        "TRAILER_TOO_LONG"
+      ],
+      "review_codes": []
+    },
+    {
+      "rule_id": "CONTINUITY_PROP_ORDER_001",
+      "category": "story truth / continuity",
+      "checks": "tracked props are not cut against story order",
+      "evidence": [
+        "episode/scenes.json",
+        "episode/props.json"
+      ],
+      "reason_codes": [
+        "CONTINUITY_ORDER_REVERSED"
+      ],
+      "blocking_codes": [],
+      "review_codes": [
+        "CONTINUITY_ORDER_REVERSED"
+      ]
+    }
+  ],
+  "pipeline_checks": [
+    {
+      "component": "normaliser",
+      "category": "schema / unsupported references",
+      "checks": "payload shape; every scene, line, music and evidence ID exists"
+    },
+    {
+      "component": "planning.claims",
+      "category": "story truth / misleading claims",
+      "checks": "every hook sentence quotes a real line usable here"
+    },
+    {
+      "component": "repair.verification",
+      "category": "repair integrity",
+      "checks": "a repair changes only what its decisions allow; purpose kept"
+    },
+    {
+      "component": "repair.budget",
+      "category": "budget",
+      "checks": "model calls and estimated cost stay within the cost sheet and run limits"
+    },
+    {
+      "component": "llm.screening",
+      "category": "security",
+      "checks": "instruction-like evidence text never reaches the model"
+    },
+    {
+      "component": "planning.strategy",
+      "category": "cultural / audience bias",
+      "checks": "stereotyping profile preferences are withheld from planning"
+    }
+  ],
+  "audience_policies": {
+    "family": {
+      "certification_target": "U",
+      "max_spoiler_level": "minor",
+      "max_trailer_duration_seconds": 60,
+      "subtitles_required": true,
+      "dialect_review_required": false,
+      "content_rules": [
+        {
+          "category": "frightening",
+          "max_severity": "mild",
+          "guidance": "Suspense is fine; no menacing close-ups or threats held on screen."
+        },
+        {
+          "category": "suggestive",
+          "max_severity": "none",
+          "guidance": "No suggestive content."
+        },
+        {
+          "category": "violence",
+          "max_severity": "none",
+          "guidance": "No physical altercation, including shoves or breaking objects in anger."
+        },
+        {
+          "category": "strong_language",
+          "max_severity": "none",
+          "guidance": "No insults or profanity in audio or subtitles."
+        },
+        {
+          "category": "sensitive_context",
+          "max_severity": "mild",
+          "guidance": "Grief may be referenced gently; no forgery, debt or deathbed detail."
+        },
+        {
+          "category": "misleading_context",
+          "max_severity": "none",
+          "guidance": "Never cut material so it implies events or relationships that do not occur."
+        }
+      ],
+      "target_trailer_duration_seconds": 45
+    },
+    "young_adult": {
+      "certification_target": "U/A 13+",
+      "max_spoiler_level": "moderate",
+      "max_trailer_duration_seconds": 90,
+      "subtitles_required": true,
+      "dialect_review_required": false,
+      "content_rules": [
+        {
+          "category": "frightening",
+          "max_severity": "moderate",
+          "guidance": "Tension and menace allowed; no sustained horror framing."
+        },
+        {
+          "category": "suggestive",
+          "max_severity": "mild",
+          "guidance": "Mild romantic implication only."
+        },
+        {
+          "category": "violence",
+          "max_severity": "moderate",
+          "guidance": "Brief confrontation allowed if it stays in context; no injury detail."
+        },
+        {
+          "category": "strong_language",
+          "max_severity": "mild",
+          "guidance": "Mild insults allowed in audio; do not burn them into subtitles."
+        },
+        {
+          "category": "sensitive_context",
+          "max_severity": "moderate",
+          "guidance": "Family conflict and loss may be shown with context."
+        },
+        {
+          "category": "misleading_context",
+          "max_severity": "none",
+          "guidance": "Never cut material so it implies events or relationships that do not occur."
+        }
+      ],
+      "target_trailer_duration_seconds": 60
+    },
+    "dialect_region": {
+      "certification_target": "U/A 7+",
+      "max_spoiler_level": "minor",
+      "max_trailer_duration_seconds": 75,
+      "subtitles_required": true,
+      "dialect_review_required": true,
+      "content_rules": [
+        {
+          "category": "frightening",
+          "max_severity": "mild",
+          "guidance": "Suspense allowed; avoid threatening imagery."
+        },
+        {
+          "category": "suggestive",
+          "max_severity": "none",
+          "guidance": "No suggestive content."
+        },
+        {
+          "category": "violence",
+          "max_severity": "mild",
+          "guidance": "Raised voices and implied tension only; no physical contact."
+        },
+        {
+          "category": "strong_language",
+          "max_severity": "none",
+          "guidance": "No insults, including regional terms, in audio or subtitles."
+        },
+        {
+          "category": "sensitive_context",
+          "max_severity": "moderate",
+          "guidance": "Mourning customs may be shown respectfully and accurately."
+        },
+        {
+          "category": "misleading_context",
+          "max_severity": "none",
+          "guidance": "Never imply kinship that does not exist, e.g. presenting an honorific 'Kaka' as a blood relative."
+        }
+      ],
+      "target_trailer_duration_seconds": 60
+    }
+  },
+  "music_rights": [
+    {
+      "territories": [
+        "WORLDWIDE"
+      ],
+      "allowed_audiences": [
+        "family",
+        "young_adult",
+        "dialect_region"
+      ],
+      "valid_from": "2026-06-01",
+      "valid_until": "2029-05-31",
+      "music_id": "MUS_01",
+      "title": "Chitthi (Main Theme)",
+      "type": "score",
+      "mood": [
+        "melancholic",
+        "hopeful"
+      ],
+      "duration_seconds": 142,
+      "allowed_for_promotion": true,
+      "notes": "Commissioned original score owned by the production."
+    },
+    {
+      "territories": [
+        "IN"
+      ],
+      "allowed_audiences": [
+        "family",
+        "young_adult",
+        "dialect_region"
+      ],
+      "valid_from": "2026-07-01",
+      "valid_until": "2027-06-30",
+      "music_id": "MUS_02",
+      "title": "Aangan Ki Dhoop",
+      "type": "song",
+      "mood": [
+        "warm",
+        "folk",
+        "uplifting"
+      ],
+      "duration_seconds": 188,
+      "allowed_for_promotion": true,
+      "notes": "Licensed regional folk recording; promotion within India only."
+    },
+    {
+      "territories": [
+        "IN"
+      ],
+      "allowed_audiences": [
+        "young_adult"
+      ],
+      "valid_from": "2026-07-15",
+      "valid_until": "2026-10-31",
+      "music_id": "MUS_03",
+      "title": "Andheri Gali",
+      "type": "song",
+      "mood": [
+        "tense",
+        "dark",
+        "pulsing"
+      ],
+      "duration_seconds": 165,
+      "allowed_for_promotion": true,
+      "notes": "Third-party licence. Promotional window ends 2026-10-31, before the 2026-11-14 release; renewal is under negotiation and not guaranteed. Not cleared for family or dialect-region campaigns."
+    },
+    {
+      "territories": [
+        "WORLDWIDE"
+      ],
+      "allowed_audiences": [
+        "family",
+        "young_adult",
+        "dialect_region"
+      ],
+      "valid_from": "2026-01-01",
+      "valid_until": "2030-12-31",
+      "music_id": "MUS_04",
+      "title": "Dhol Hit Stinger 03",
+      "type": "stinger",
+      "mood": [
+        "energetic",
+        "punchy"
+      ],
+      "duration_seconds": 6,
+      "allowed_for_promotion": true,
+      "notes": "Promo library asset for trailer transitions; not used in the episode."
+    },
+    {
+      "territories": [
+        "IN"
+      ],
+      "allowed_audiences": [],
+      "valid_from": "2026-06-01",
+      "valid_until": "2029-05-31",
+      "music_id": "MUS_05",
+      "title": "Baarish Raag (Reveal Cue)",
+      "type": "score",
+      "mood": [
+        "devastating",
+        "cathartic"
+      ],
+      "duration_seconds": 96,
+      "allowed_for_promotion": false,
+      "notes": "Composer retains promotional rights; licensed for in-episode use only."
+    }
+  ],
+  "actor_rights": [
+    {
+      "territories": [
+        "WORLDWIDE"
+      ],
+      "allowed_audiences": [
+        "family",
+        "young_adult",
+        "dialect_region"
+      ],
+      "valid_from": "2026-08-01",
+      "valid_until": "2028-07-31",
+      "actor_id": "ACT_01",
+      "performer_name": "Ananya Rathi",
+      "character_id": "CHAR_MEERA",
+      "promotional_use": "full",
+      "restrictions": []
+    },
+    {
+      "territories": [
+        "IN"
+      ],
+      "allowed_audiences": [
+        "family",
+        "young_adult",
+        "dialect_region"
+      ],
+      "valid_from": "2026-08-01",
+      "valid_until": "2027-12-31",
+      "actor_id": "ACT_02",
+      "performer_name": "Kunal Dhankhar",
+      "character_id": "CHAR_ARJUN",
+      "promotional_use": "full",
+      "restrictions": []
+    },
+    {
+      "territories": [
+        "IN"
+      ],
+      "allowed_audiences": [
+        "family",
+        "young_adult",
+        "dialect_region"
+      ],
+      "valid_from": "2026-08-01",
+      "valid_until": "2027-12-31",
+      "actor_id": "ACT_03",
+      "performer_name": "Sunita Malik",
+      "character_id": "CHAR_KAMLA",
+      "promotional_use": "full",
+      "restrictions": [
+        {
+          "code": "approval_required_tearful_closeup",
+          "description": "Performer approval is required before any tearful close-up from the listed scenes is used in promotion.",
+          "effect": "requires_approval",
+          "scene_ids": [
+            "SC10"
+          ]
+        }
+      ]
+    },
+    {
+      "territories": [
+        "IN"
+      ],
+      "allowed_audiences": [
+        "family",
+        "young_adult",
+        "dialect_region"
+      ],
+      "valid_from": "2026-08-01",
+      "valid_until": "2027-06-30",
+      "actor_id": "ACT_04",
+      "performer_name": "Vikram Dahiya",
+      "character_id": "CHAR_RAGHAV",
+      "promotional_use": "limited",
+      "restrictions": [
+        {
+          "code": "no_physical_altercation_footage",
+          "description": "Contract excludes promotional use of footage showing the performer in a physical altercation.",
+          "effect": "prohibit",
+          "scene_ids": [
+            "SC09"
+          ]
+        }
+      ]
+    },
+    {
+      "territories": [
+        "IN-HR"
+      ],
+      "allowed_audiences": [
+        "dialect_region"
+      ],
+      "valid_from": "2026-09-01",
+      "valid_until": "2026-12-31",
+      "actor_id": "ACT_05",
+      "performer_name": "Ramphal Sheoran",
+      "character_id": "CHAR_BANSI",
+      "promotional_use": "limited",
+      "restrictions": [
+        {
+          "code": "regional_campaigns_only",
+          "description": "Guest-appearance agreement: likeness and voice may be used only in Haryana regional campaigns until the end of 2026.",
+          "effect": "prohibit",
+          "scene_ids": []
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "currency": "USD",
+    "limits": {
+      "max_model_calls": 24,
+      "max_tool_calls": 150,
+      "max_media_operations": 40,
+      "max_estimated_total_cost": 1.5
+    },
+    "fallback_strategy": {
+      "on_budget_exhausted": "return_best_verified_plan",
+      "on_provider_unavailable": "use_replay_fixtures",
+      "max_provider_retries": 2,
+      "retry_backoff_seconds": 2.0
+    }
+  },
+  "repair_strategies": [
+    {
+      "reason_code": "SCENE_NOT_FOUND",
+      "entity": "scene",
+      "scope": "clip",
+      "allowed_actions": [
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "DIALOGUE_NOT_FOUND",
+      "entity": "dialogue",
+      "scope": "dialogue",
+      "allowed_actions": [
+        "recut_in_scene",
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "DIALOGUE_SCENE_MISMATCH",
+      "entity": "dialogue",
+      "scope": "dialogue",
+      "allowed_actions": [
+        "recut_in_scene",
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "MUSIC_NOT_FOUND",
+      "entity": "music",
+      "scope": "music",
+      "allowed_actions": [
+        "replace_music",
+        "remove_music"
+      ]
+    },
+    {
+      "reason_code": "CLIP_STARTS_BEFORE_SCENE",
+      "entity": "clip",
+      "scope": "dialogue",
+      "allowed_actions": [
+        "recut_in_scene",
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "CLIP_ENDS_AFTER_SCENE",
+      "entity": "clip",
+      "scope": "dialogue",
+      "allowed_actions": [
+        "recut_in_scene",
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "DIALOGUE_OUTSIDE_CLIP",
+      "entity": "dialogue",
+      "scope": "dialogue",
+      "allowed_actions": [
+        "recut_in_scene",
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "SPOILER_LEVEL_EXCEEDED",
+      "entity": "scene",
+      "scope": "clip",
+      "allowed_actions": [
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "SPOILER_LEVEL_EXCEEDED",
+      "entity": "dialogue",
+      "scope": "dialogue",
+      "allowed_actions": [
+        "recut_in_scene",
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "CONTENT_SEVERITY_EXCEEDED",
+      "entity": "scene",
+      "scope": "clip",
+      "allowed_actions": [
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "CONTENT_SEVERITY_EXCEEDED",
+      "entity": "dialogue",
+      "scope": "dialogue",
+      "allowed_actions": [
+        "recut_in_scene",
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "MISLEADING_DIALOGUE_IN_CLIP",
+      "entity": "dialogue",
+      "scope": "dialogue",
+      "allowed_actions": [
+        "recut_in_scene",
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "MISLEADING_RELATIONSHIP",
+      "entity": "dialogue",
+      "scope": "dialogue",
+      "allowed_actions": [
+        "recut_in_scene",
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "PROMOTION_NOT_PERMITTED",
+      "entity": "music",
+      "scope": "music",
+      "allowed_actions": [
+        "replace_music",
+        "remove_music"
+      ]
+    },
+    {
+      "reason_code": "AUDIENCE_NOT_LICENSED",
+      "entity": "music",
+      "scope": "music",
+      "allowed_actions": [
+        "replace_music",
+        "remove_music"
+      ]
+    },
+    {
+      "reason_code": "TERRITORY_NOT_LICENSED",
+      "entity": "music",
+      "scope": "music",
+      "allowed_actions": [
+        "replace_music",
+        "remove_music"
+      ]
+    },
+    {
+      "reason_code": "RIGHTS_NOT_YET_ACTIVE",
+      "entity": "music",
+      "scope": "music",
+      "allowed_actions": [
+        "replace_music",
+        "remove_music"
+      ]
+    },
+    {
+      "reason_code": "PROMOTIONAL_RIGHTS_EXPIRED",
+      "entity": "music",
+      "scope": "music",
+      "allowed_actions": [
+        "replace_music",
+        "remove_music"
+      ]
+    },
+    {
+      "reason_code": "PROMOTION_NOT_PERMITTED",
+      "entity": "actor",
+      "scope": "clip",
+      "allowed_actions": [
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "AUDIENCE_NOT_LICENSED",
+      "entity": "actor",
+      "scope": "clip",
+      "allowed_actions": [
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "TERRITORY_NOT_LICENSED",
+      "entity": "actor",
+      "scope": "clip",
+      "allowed_actions": [
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "RIGHTS_NOT_YET_ACTIVE",
+      "entity": "actor",
+      "scope": "clip",
+      "allowed_actions": [
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "PROMOTIONAL_RIGHTS_EXPIRED",
+      "entity": "actor",
+      "scope": "clip",
+      "allowed_actions": [
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "ACTOR_RIGHTS_MISSING",
+      "entity": "character",
+      "scope": "clip",
+      "allowed_actions": [
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "CONTRACT_RESTRICTION",
+      "entity": "actor",
+      "scope": "clip",
+      "allowed_actions": [
+        "replace_clip",
+        "drop_clip"
+      ]
+    },
+    {
+      "reason_code": "TRAILER_TOO_LONG",
+      "entity": "trailer",
+      "scope": "trailer",
+      "allowed_actions": [
+        "drop_clip",
+        "recut_in_scene"
+      ]
+    }
+  ],
+  "human_review_codes": [
+    "APPROVAL_REQUIRED",
+    "CONTINUITY_ORDER_REVERSED",
+    "DIALECT_REVIEW_REQUIRED",
+    "MISLEADING_SCENE_CONTEXT",
+    "SUBTITLE_READING_SPEED_HIGH",
+    "SUBTITLE_REVIEW_REQUIRED",
+    "UNDECLARED_DIALOGUE_IN_CLIP"
+  ]
+}

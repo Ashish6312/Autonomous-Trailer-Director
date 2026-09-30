@@ -1,0 +1,31 @@
+{
+  "trailer_id": "TRL_YOUNG_ADULT_RISKY",
+  "clips": [
+    {
+      "clip_id": "CLIP_001",
+      "scene_id": "SC10",
+      "source_in": "00:10:39.000",
+      "source_out": "00:10:49.000",
+      "dialogue_ids": ["DLG_040"],
+      "music_id": "MUS_03",
+      "purpose": "reveal_hook"
+    },
+    {
+      "clip_id": "CLIP_002",
+      "scene_id": "SC09",
+      "source_in": "00:09:19.000",
+      "source_out": "00:09:25.000",
+      "dialogue_ids": ["DLG_037"],
+      "purpose": "confrontation_peak"
+    },
+    {
+      "clip_id": "CLIP_003",
+      "scene_id": "SC01",
+      "source_in": "00:00:22.000",
+      "source_out": "00:00:29.000",
+      "dialogue_ids": ["DLG_003"],
+      "music_id": "MUS_03",
+      "purpose": "mystery_setup"
+    }
+  ]
+}

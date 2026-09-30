@@ -1,0 +1,26 @@
+{
+  "episode_id": "EP_AAKHRI_CHITTHI_S01E01",
+  "title": "Aakhri Chitthi",
+  "genre": ["family mystery", "emotional drama"],
+  "spoiler_safe_logline": "Six years after leaving home without a word, Meera returns to her village - and to a brother who has not forgiven her - just as the last letter their father left behind goes missing.",
+  "synopsis": "Meera returns to the Sharma haveli after six years in Delhi. Her mother Kamla is overjoyed; her younger brother Arjun, who left college to run the household, is openly hostile. Kamla reveals that Meera's late father Shankar left a letter to be opened only when Meera came home, but the letter has vanished from Kamla's tin box. Their uncle Raghav has it. Arjun, prompted by the postman Bansi Kaka, starts tracing the monthly money orders from Delhi that Raghav passes off as shop profit. After a confrontation in which Arjun shoves Raghav and a lantern shatters, Raghav hands over the letter. Read aloud, it reveals that Raghav forged Shankar's signature on a loan against the house, and that Meera left to repay it in secret at her dying father's request. Arjun and Meera reconcile; Raghav leaves to confess to the bank and the panchayat. The episode ends as Bansi delivers a registered letter from Delhi in handwriting Meera recognises.",
+  "duration_seconds": 840,
+  "frame_rate": 25,
+  "language": "hi",
+  "dialect": "Haryanvi",
+  "region": "IN-HR",
+  "content_rating": "U/A 13+",
+  "version": "1.0.0",
+  "created_at": "2026-09-20T10:00:00+05:30",
+  "release_date": "2026-11-14",
+  "scene_ids": ["SC01", "SC02", "SC03", "SC04", "SC05", "SC06", "SC07", "SC08", "SC09", "SC10", "SC11", "SC12"],
+  "character_ids": ["CHAR_MEERA", "CHAR_ARJUN", "CHAR_KAMLA", "CHAR_RAGHAV", "CHAR_BANSI", "CHAR_SHANKAR"],
+  "music_ids": ["MUS_01", "MUS_02", "MUS_03", "MUS_05"],
+  "data_quality_notes": [
+    "Entirely synthetic dataset created for an engineering assignment; no real production, performer, music or audience data.",
+    "Dialogue text is an English subtitle rendering of Haryanvi dialogue; kinship and address terms (Jiji, Chacha, Kaka, Bhabhi, Munna) are kept untranslated.",
+    "Kinship term interpretations are the writers' reading and have not been reviewed by a regional language consultant.",
+    "Timecodes are on the episode timeline (HH:MM:SS.mmm), not on camera-original media.",
+    "production_notes fields are copied verbatim from edit-bay logs and are unverified free text."
+  ]
+}

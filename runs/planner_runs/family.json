@@ -1,0 +1,91 @@
+{
+  "format_version": 1,
+  "planner_version": "llm-planner/claude-opus-5-5/high",
+  "recorded_at": "2026-09-30T07:05:40.675143Z",
+  "recorded_for": {
+    "episode_id": "EP_AAKHRI_CHITTHI_S01E01",
+    "audience": "family",
+    "evidence_fingerprint": "f855637bbf6a9b74"
+  },
+  "model_calls": 1,
+  "response": {
+    "audience": "family",
+    "trailer_id": "TRL_AAKHRI_CHITTHI_FAMILY_01",
+    "title": "Aakhri Chitthi - Coming Home",
+    "hook": "Before he passed, your father wrote a letter. He said, open it only when Meera is home.",
+    "positioning": "A gentle family mystery: Meera comes home to her mother's warmth, and the last letter her father left for that very day has vanished from Kamla's tin box.",
+    "rationale": "The cut opens on Kamla's affectionate welcome (homecoming, mother-daughter bond). It then sets up the father's letter as hopeful suspense and lands the 'It's gone' beat. It closes on the rotis teasing so the family leaves warm and smiling. It uses only SC02 and SC03, which carry no review flags. It deliberately skips Arjun's cold 'guest' lines, the SC05 rooftop confrontation, and anything protected or unavailable, which respects the avoid list (confrontation, insults, threatening framing, resolution spoilers). Clips follow story order, total 44 seconds against a 45 second target, and are paced to let each beat breathe.",
+    "clips": [
+      {
+        "clip_id": "CLIP_001",
+        "scene_id": "SC02",
+        "source_in": "00:01:02.000",
+        "source_out": "00:01:10.000",
+        "dialogue_ids": [
+          "DLG_005"
+        ],
+        "music_id": "MUS_02",
+        "purpose": "Warm homecoming opener: Kamla embraces her daughter.",
+        "reason": "Opens on SC02's inciting incident with Kamla's affectionate, gently funny welcome (DLG_005), which establishes homecoming and the mother-daughter bond. The range ends before Arjun's cold 'guest' line (DLG_006 at 00:01:12), keeping insults out. The warm folk song MUS_02 matches the family tone.",
+        "evidence": [
+          "SC02",
+          "DLG_005",
+          "MUS_02"
+        ]
+      },
+      {
+        "clip_id": "CLIP_002",
+        "scene_id": "SC02",
+        "source_in": "00:01:32.000",
+        "source_out": "00:01:43.000",
+        "dialogue_ids": [
+          "DLG_009"
+        ],
+        "music_id": "MUS_01",
+        "purpose": "Set up the mystery: the father's letter meant for Meera's return.",
+        "reason": "Kamla's solemn line about Shankar's letter (DLG_009, flagged as a trailer hook) frames the story as a family mystery rooted in love, not threat. The range sits clear of DLG_008 (ends 00:01:24) and DLG_010 (starts 00:01:50). The main theme MUS_01, melancholic and hopeful, gives hopeful suspense.",
+        "evidence": [
+          "SC02",
+          "DLG_009",
+          "MUS_01"
+        ]
+      },
+      {
+        "clip_id": "CLIP_003",
+        "scene_id": "SC02",
+        "source_in": "00:01:47.000",
+        "source_out": "00:01:57.000",
+        "dialogue_ids": [
+          "DLG_010"
+        ],
+        "music_id": "MUS_01",
+        "purpose": "Gentle suspense beat: the letter is missing.",
+        "reason": "Kamla opens her tin box and finds it empty (DLG_010, a trailer hook). This poses the central question without revealing any resolution. MUS_01 carries the hopeful-suspense tone into the turn.",
+        "evidence": [
+          "SC02",
+          "DLG_010",
+          "MUS_01"
+        ]
+      },
+      {
+        "clip_id": "CLIP_004",
+        "scene_id": "SC03",
+        "source_in": "00:02:14.000",
+        "source_out": "00:02:29.000",
+        "dialogue_ids": [
+          "DLG_011",
+          "DLG_012"
+        ],
+        "music_id": "MUS_02",
+        "purpose": "Warm, humorous button: mother and daughter making rotis together.",
+        "reason": "SC03's relationship scene shows Kamla's teasing (DLG_011) and Meera's affectionate comeback (DLG_012, a trailer hook). Together they deliver gentle humour and the mother-daughter bond. The range stops before DLG_013 at 00:02:35. MUS_02 returns to close the trailer on warmth and family unity.",
+        "evidence": [
+          "SC03",
+          "DLG_011",
+          "DLG_012",
+          "MUS_02"
+        ]
+      }
+    ]
+  }
+}

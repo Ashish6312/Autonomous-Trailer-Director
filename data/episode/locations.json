@@ -1,0 +1,10 @@
+[
+  {"location_id": "LOC_BUS_STAND", "name": "Village bus stand", "setting": "exterior", "description": "Dusty roadside stop with a tin shelter and a tea stall at the edge of the village."},
+  {"location_id": "LOC_COURTYARD", "name": "Sharma haveli courtyard", "setting": "exterior", "description": "Open central courtyard of the family home, with a tulsi planter and a brass lantern by the main door."},
+  {"location_id": "LOC_KITCHEN", "name": "Sharma kitchen", "setting": "interior", "description": "Small smoke-darkened kitchen with a clay chulha and steel utensils."},
+  {"location_id": "LOC_RAGHAV_SHOP", "name": "Raghav Cloth House", "setting": "interior", "description": "Narrow cloth shop in the village market with a locked cash drawer."},
+  {"location_id": "LOC_ROOFTOP", "name": "Haveli rooftop", "setting": "exterior", "description": "Flat roof overlooking the fields, with charpais and drying laundry."},
+  {"location_id": "LOC_FIELDS", "name": "Sharma fields and tubewell", "setting": "exterior", "description": "Mustard fields around the family tubewell, Shankar's favourite spot."},
+  {"location_id": "LOC_POST_OFFICE", "name": "Village branch post office", "setting": "interior", "description": "One-room branch post office with a counter, a weighing scale and a red letter box outside."},
+  {"location_id": "LOC_STOREROOM", "name": "Haveli storeroom", "setting": "interior", "description": "Cluttered storeroom holding tin trunks, grain sacks and old ledgers."}
+]

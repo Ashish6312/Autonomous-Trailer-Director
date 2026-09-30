@@ -1,0 +1,1577 @@
+{
+  "evidence_fingerprint": "f855637bbf6a9b74",
+  "story_map": {
+    "episode_id": "EP_AAKHRI_CHITTHI_S01E01",
+    "evidence_fingerprint": "f855637bbf6a9b74",
+    "method": "deterministic_baseline",
+    "premise": {
+      "logline": "Six years after leaving home without a word, Meera returns to her village - and to a brother who has not forgiven her - just as the last letter their father left behind goes missing.",
+      "scene_ids": [
+        "SC01",
+        "SC02"
+      ]
+    },
+    "characters": [
+      {
+        "character_id": "CHAR_MEERA",
+        "name": "Meera Sharma",
+        "role": "lead",
+        "description": "Elder daughter of the Sharma family. Left for Delhi six years ago without explanation and works as a bank clerk there.",
+        "arc": [
+          {
+            "scene_id": "SC01",
+            "dramatic_function": "setup",
+            "emotional_tone": [
+              "nostalgic",
+              "warm",
+              "wistful"
+            ]
+          },
+          {
+            "scene_id": "SC02",
+            "dramatic_function": "inciting_incident",
+            "emotional_tone": [
+              "joyful",
+              "tense",
+              "shocked"
+            ]
+          },
+          {
+            "scene_id": "SC03",
+            "dramatic_function": "relationship",
+            "emotional_tone": [
+              "warm",
+              "playful",
+              "bittersweet"
+            ]
+          },
+          {
+            "scene_id": "SC05",
+            "dramatic_function": "conflict",
+            "emotional_tone": [
+              "angry",
+              "hurt",
+              "raw"
+            ]
+          },
+          {
+            "scene_id": "SC06",
+            "dramatic_function": "relationship",
+            "emotional_tone": [
+              "nostalgic",
+              "humorous",
+              "tender"
+            ]
+          },
+          {
+            "scene_id": "SC08",
+            "dramatic_function": "conflict",
+            "emotional_tone": [
+              "menacing",
+              "tense",
+              "whispered"
+            ]
+          },
+          {
+            "scene_id": "SC09",
+            "dramatic_function": "conflict",
+            "emotional_tone": [
+              "explosive",
+              "angry",
+              "desperate"
+            ]
+          },
+          {
+            "scene_id": "SC10",
+            "dramatic_function": "reveal",
+            "emotional_tone": [
+              "devastating",
+              "cathartic",
+              "tearful"
+            ]
+          },
+          {
+            "scene_id": "SC11",
+            "dramatic_function": "resolution",
+            "emotional_tone": [
+              "tender",
+              "relieved",
+              "light"
+            ]
+          },
+          {
+            "scene_id": "SC12",
+            "dramatic_function": "cliffhanger",
+            "emotional_tone": [
+              "resolved",
+              "intriguing",
+              "uneasy"
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": "CHAR_ARJUN",
+        "name": "Arjun Sharma",
+        "role": "lead",
+        "description": "Meera's younger brother. Left his engineering course the year she went away and now runs the family's small dairy.",
+        "arc": [
+          {
+            "scene_id": "SC02",
+            "dramatic_function": "inciting_incident",
+            "emotional_tone": [
+              "joyful",
+              "tense",
+              "shocked"
+            ]
+          },
+          {
+            "scene_id": "SC05",
+            "dramatic_function": "conflict",
+            "emotional_tone": [
+              "angry",
+              "hurt",
+              "raw"
+            ]
+          },
+          {
+            "scene_id": "SC06",
+            "dramatic_function": "relationship",
+            "emotional_tone": [
+              "nostalgic",
+              "humorous",
+              "tender"
+            ]
+          },
+          {
+            "scene_id": "SC07",
+            "dramatic_function": "investigation",
+            "emotional_tone": [
+              "curious",
+              "humorous",
+              "suspicious"
+            ]
+          },
+          {
+            "scene_id": "SC09",
+            "dramatic_function": "conflict",
+            "emotional_tone": [
+              "explosive",
+              "angry",
+              "desperate"
+            ]
+          },
+          {
+            "scene_id": "SC10",
+            "dramatic_function": "reveal",
+            "emotional_tone": [
+              "devastating",
+              "cathartic",
+              "tearful"
+            ]
+          },
+          {
+            "scene_id": "SC11",
+            "dramatic_function": "resolution",
+            "emotional_tone": [
+              "tender",
+              "relieved",
+              "light"
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": "CHAR_KAMLA",
+        "name": "Kamla Sharma",
+        "role": "main",
+        "description": "Widowed mother of Meera and Arjun. Holds the household together and kept her late husband's letter for six years.",
+        "arc": [
+          {
+            "scene_id": "SC02",
+            "dramatic_function": "inciting_incident",
+            "emotional_tone": [
+              "joyful",
+              "tense",
+              "shocked"
+            ]
+          },
+          {
+            "scene_id": "SC03",
+            "dramatic_function": "relationship",
+            "emotional_tone": [
+              "warm",
+              "playful",
+              "bittersweet"
+            ]
+          },
+          {
+            "scene_id": "SC09",
+            "dramatic_function": "conflict",
+            "emotional_tone": [
+              "explosive",
+              "angry",
+              "desperate"
+            ]
+          },
+          {
+            "scene_id": "SC10",
+            "dramatic_function": "reveal",
+            "emotional_tone": [
+              "devastating",
+              "cathartic",
+              "tearful"
+            ]
+          },
+          {
+            "scene_id": "SC12",
+            "dramatic_function": "cliffhanger",
+            "emotional_tone": [
+              "resolved",
+              "intriguing",
+              "uneasy"
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": "CHAR_RAGHAV",
+        "name": "Raghav Sharma",
+        "role": "main",
+        "description": "Shankar's younger brother; owns a cloth shop in the village market. Presents himself as the family's provider.",
+        "arc": [
+          {
+            "scene_id": "SC04",
+            "dramatic_function": "mystery",
+            "emotional_tone": [
+              "tense",
+              "secretive",
+              "uneasy"
+            ]
+          },
+          {
+            "scene_id": "SC08",
+            "dramatic_function": "conflict",
+            "emotional_tone": [
+              "menacing",
+              "tense",
+              "whispered"
+            ]
+          },
+          {
+            "scene_id": "SC09",
+            "dramatic_function": "conflict",
+            "emotional_tone": [
+              "explosive",
+              "angry",
+              "desperate"
+            ]
+          },
+          {
+            "scene_id": "SC10",
+            "dramatic_function": "reveal",
+            "emotional_tone": [
+              "devastating",
+              "cathartic",
+              "tearful"
+            ]
+          },
+          {
+            "scene_id": "SC12",
+            "dramatic_function": "cliffhanger",
+            "emotional_tone": [
+              "resolved",
+              "intriguing",
+              "uneasy"
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": "CHAR_BANSI",
+        "name": "Bansi Lal",
+        "role": "supporting",
+        "description": "The village postman for thirty years. Talkative, warm and scrupulous about postal rules.",
+        "arc": [
+          {
+            "scene_id": "SC01",
+            "dramatic_function": "setup",
+            "emotional_tone": [
+              "nostalgic",
+              "warm",
+              "wistful"
+            ]
+          },
+          {
+            "scene_id": "SC04",
+            "dramatic_function": "mystery",
+            "emotional_tone": [
+              "tense",
+              "secretive",
+              "uneasy"
+            ]
+          },
+          {
+            "scene_id": "SC07",
+            "dramatic_function": "investigation",
+            "emotional_tone": [
+              "curious",
+              "humorous",
+              "suspicious"
+            ]
+          },
+          {
+            "scene_id": "SC12",
+            "dramatic_function": "cliffhanger",
+            "emotional_tone": [
+              "resolved",
+              "intriguing",
+              "uneasy"
+            ]
+          }
+        ]
+      },
+      {
+        "character_id": "CHAR_SHANKAR",
+        "name": "Shankar Sharma",
+        "role": "referenced",
+        "description": "Meera and Arjun's late father, who died six years before the episode. Seen only in a framed photograph and heard only through his letter.",
+        "arc": []
+      }
+    ],
+    "relationships": [
+      {
+        "character_id": "CHAR_MEERA",
+        "related_character_id": "CHAR_ARJUN",
+        "relation": "younger_brother",
+        "note": null,
+        "shared_scene_ids": [
+          "SC02",
+          "SC05",
+          "SC06",
+          "SC09",
+          "SC10",
+          "SC11"
+        ]
+      },
+      {
+        "character_id": "CHAR_MEERA",
+        "related_character_id": "CHAR_KAMLA",
+        "relation": "mother",
+        "note": null,
+        "shared_scene_ids": [
+          "SC02",
+          "SC03",
+          "SC09",
+          "SC10",
+          "SC12"
+        ]
+      },
+      {
+        "character_id": "CHAR_MEERA",
+        "related_character_id": "CHAR_SHANKAR",
+        "relation": "father",
+        "note": "Deceased six years before the episode.",
+        "shared_scene_ids": []
+      },
+      {
+        "character_id": "CHAR_MEERA",
+        "related_character_id": "CHAR_RAGHAV",
+        "relation": "paternal_uncle",
+        "note": "Father's younger brother (Chacha).",
+        "shared_scene_ids": [
+          "SC08",
+          "SC09",
+          "SC10",
+          "SC12"
+        ]
+      },
+      {
+        "character_id": "CHAR_MEERA",
+        "related_character_id": "CHAR_BANSI",
+        "relation": "family_acquaintance",
+        "note": "Village postman; not a relative.",
+        "shared_scene_ids": [
+          "SC01",
+          "SC12"
+        ]
+      },
+      {
+        "character_id": "CHAR_ARJUN",
+        "related_character_id": "CHAR_MEERA",
+        "relation": "elder_sister",
+        "note": null,
+        "shared_scene_ids": [
+          "SC02",
+          "SC05",
+          "SC06",
+          "SC09",
+          "SC10",
+          "SC11"
+        ]
+      },
+      {
+        "character_id": "CHAR_ARJUN",
+        "related_character_id": "CHAR_KAMLA",
+        "relation": "mother",
+        "note": null,
+        "shared_scene_ids": [
+          "SC02",
+          "SC09",
+          "SC10"
+        ]
+      },
+      {
+        "character_id": "CHAR_ARJUN",
+        "related_character_id": "CHAR_SHANKAR",
+        "relation": "father",
+        "note": "Deceased.",
+        "shared_scene_ids": []
+      },
+      {
+        "character_id": "CHAR_ARJUN",
+        "related_character_id": "CHAR_RAGHAV",
+        "relation": "paternal_uncle",
+        "note": "Father's younger brother (Chacha).",
+        "shared_scene_ids": [
+          "SC09",
+          "SC10"
+        ]
+      },
+      {
+        "character_id": "CHAR_ARJUN",
+        "related_character_id": "CHAR_BANSI",
+        "relation": "family_acquaintance",
+        "note": "Addresses him as 'Kaka' out of respect; not a relative.",
+        "shared_scene_ids": [
+          "SC07"
+        ]
+      },
+      {
+        "character_id": "CHAR_KAMLA",
+        "related_character_id": "CHAR_MEERA",
+        "relation": "daughter",
+        "note": null,
+        "shared_scene_ids": [
+          "SC02",
+          "SC03",
+          "SC09",
+          "SC10",
+          "SC12"
+        ]
+      },
+      {
+        "character_id": "CHAR_KAMLA",
+        "related_character_id": "CHAR_ARJUN",
+        "relation": "son",
+        "note": null,
+        "shared_scene_ids": [
+          "SC02",
+          "SC09",
+          "SC10"
+        ]
+      },
+      {
+        "character_id": "CHAR_KAMLA",
+        "related_character_id": "CHAR_SHANKAR",
+        "relation": "late_husband",
+        "note": null,
+        "shared_scene_ids": []
+      },
+      {
+        "character_id": "CHAR_KAMLA",
+        "related_character_id": "CHAR_RAGHAV",
+        "relation": "brother_in_law",
+        "note": "Husband's younger brother (devar).",
+        "shared_scene_ids": [
+          "SC09",
+          "SC10",
+          "SC12"
+        ]
+      },
+      {
+        "character_id": "CHAR_KAMLA",
+        "related_character_id": "CHAR_BANSI",
+        "relation": "family_acquaintance",
+        "note": null,
+        "shared_scene_ids": [
+          "SC12"
+        ]
+      },
+      {
+        "character_id": "CHAR_RAGHAV",
+        "related_character_id": "CHAR_SHANKAR",
+        "relation": "elder_brother",
+        "note": "Deceased.",
+        "shared_scene_ids": []
+      },
+      {
+        "character_id": "CHAR_RAGHAV",
+        "related_character_id": "CHAR_KAMLA",
+        "relation": "sister_in_law",
+        "note": "Elder brother's wife (Bhabhi).",
+        "shared_scene_ids": [
+          "SC09",
+          "SC10",
+          "SC12"
+        ]
+      },
+      {
+        "character_id": "CHAR_RAGHAV",
+        "related_character_id": "CHAR_MEERA",
+        "relation": "niece",
+        "note": null,
+        "shared_scene_ids": [
+          "SC08",
+          "SC09",
+          "SC10",
+          "SC12"
+        ]
+      },
+      {
+        "character_id": "CHAR_RAGHAV",
+        "related_character_id": "CHAR_ARJUN",
+        "relation": "nephew",
+        "note": null,
+        "shared_scene_ids": [
+          "SC09",
+          "SC10"
+        ]
+      },
+      {
+        "character_id": "CHAR_RAGHAV",
+        "related_character_id": "CHAR_BANSI",
+        "relation": "acquaintance",
+        "note": null,
+        "shared_scene_ids": [
+          "SC04",
+          "SC12"
+        ]
+      },
+      {
+        "character_id": "CHAR_BANSI",
+        "related_character_id": "CHAR_KAMLA",
+        "relation": "family_acquaintance",
+        "note": null,
+        "shared_scene_ids": [
+          "SC12"
+        ]
+      },
+      {
+        "character_id": "CHAR_BANSI",
+        "related_character_id": "CHAR_MEERA",
+        "relation": "family_acquaintance",
+        "note": null,
+        "shared_scene_ids": [
+          "SC01",
+          "SC12"
+        ]
+      },
+      {
+        "character_id": "CHAR_BANSI",
+        "related_character_id": "CHAR_ARJUN",
+        "relation": "family_acquaintance",
+        "note": null,
+        "shared_scene_ids": [
+          "SC07"
+        ]
+      },
+      {
+        "character_id": "CHAR_BANSI",
+        "related_character_id": "CHAR_RAGHAV",
+        "relation": "acquaintance",
+        "note": "Delivers his monthly money orders.",
+        "shared_scene_ids": [
+          "SC04",
+          "SC12"
+        ]
+      },
+      {
+        "character_id": "CHAR_BANSI",
+        "related_character_id": "CHAR_SHANKAR",
+        "relation": "old_friend",
+        "note": "Deceased.",
+        "shared_scene_ids": []
+      },
+      {
+        "character_id": "CHAR_SHANKAR",
+        "related_character_id": "CHAR_KAMLA",
+        "relation": "wife",
+        "note": null,
+        "shared_scene_ids": []
+      },
+      {
+        "character_id": "CHAR_SHANKAR",
+        "related_character_id": "CHAR_MEERA",
+        "relation": "daughter",
+        "note": null,
+        "shared_scene_ids": []
+      },
+      {
+        "character_id": "CHAR_SHANKAR",
+        "related_character_id": "CHAR_ARJUN",
+        "relation": "son",
+        "note": null,
+        "shared_scene_ids": []
+      },
+      {
+        "character_id": "CHAR_SHANKAR",
+        "related_character_id": "CHAR_RAGHAV",
+        "relation": "younger_brother",
+        "note": null,
+        "shared_scene_ids": []
+      }
+    ],
+    "events": [
+      {
+        "event_id": "EVENT_01",
+        "scene_id": "SC01",
+        "description": "Meera steps off the early bus with her suitcase. Bansi Kaka, cycling past with the mail, recognises her and teases her about six years without a single letter.",
+        "dramatic_function": "setup",
+        "importance": "low",
+        "spoiler_level": "none",
+        "key_dialogue_ids": [
+          "DLG_003",
+          "DLG_004"
+        ]
+      },
+      {
+        "event_id": "EVENT_02",
+        "scene_id": "SC02",
+        "description": "Kamla embraces Meera; Arjun greets her coldly and calls her a guest. Kamla explains that Shankar left a letter to be opened only when Meera came home, then opens her tin box and finds it empty.",
+        "dramatic_function": "inciting_incident",
+        "importance": "high",
+        "spoiler_level": "none",
+        "key_dialogue_ids": [
+          "DLG_006",
+          "DLG_008",
+          "DLG_009",
+          "DLG_010"
+        ]
+      },
+      {
+        "event_id": "EVENT_03",
+        "scene_id": "SC03",
+        "description": "Kamla and Meera make rotis together and fall back into easy teasing. Kamla asks why Meera left; Meera deflects with a joke about the burning dal.",
+        "dramatic_function": "relationship",
+        "importance": "medium",
+        "spoiler_level": "minor",
+        "key_dialogue_ids": [
+          "DLG_012",
+          "DLG_015"
+        ]
+      },
+      {
+        "event_id": "EVENT_04",
+        "scene_id": "SC04",
+        "description": "Bansi delivers the monthly money order from Delhi, which Raghav signs for in his own name. Alone, Raghav unlocks his cash drawer, looks at Shankar's letter and locks it away again.",
+        "dramatic_function": "mystery",
+        "importance": "high",
+        "spoiler_level": "minor",
+        "key_dialogue_ids": [
+          "DLG_017",
+          "DLG_019"
+        ]
+      },
+      {
+        "event_id": "EVENT_05",
+        "scene_id": "SC05",
+        "description": "On the rooftop Arjun confronts Meera for leaving on the night of their father's terahvi while their mother sold her bangles. Meera insists she had a reason but will not say it.",
+        "dramatic_function": "conflict",
+        "importance": "high",
+        "spoiler_level": "minor",
+        "key_dialogue_ids": [
+          "DLG_020",
+          "DLG_022",
+          "DLG_023",
+          "DLG_024"
+        ]
+      },
+      {
+        "event_id": "EVENT_06",
+        "scene_id": "SC06",
+        "description": "At their father's tubewell the siblings share a memory of Arjun flattening Chacha's mustard crop with the tractor. The moment of warmth cools when Meera again avoids explaining herself.",
+        "dramatic_function": "relationship",
+        "importance": "low",
+        "spoiler_level": "none",
+        "key_dialogue_ids": [
+          "DLG_025",
+          "DLG_026"
+        ]
+      },
+      {
+        "event_id": "EVENT_07",
+        "scene_id": "SC07",
+        "description": "Arjun asks Bansi who sends Raghav money every month. Bansi cites postal rules but lets slip that Raghav recently asked whether any of Shankar's letters were still at the post office.",
+        "dramatic_function": "investigation",
+        "importance": "medium",
+        "spoiler_level": "minor",
+        "key_dialogue_ids": [
+          "DLG_028",
+          "DLG_030"
+        ]
+      },
+      {
+        "event_id": "EVENT_08",
+        "scene_id": "SC08",
+        "description": "Meera finds Raghav searching the storeroom with his ledger. She demands Papa's letter; he reminds her of a promise she has kept for six years and warns that some truths can burn a house down.",
+        "dramatic_function": "conflict",
+        "importance": "medium",
+        "spoiler_level": "moderate",
+        "key_dialogue_ids": [
+          "DLG_031",
+          "DLG_032",
+          "DLG_033",
+          "DLG_034"
+        ]
+      },
+      {
+        "event_id": "EVENT_09",
+        "scene_id": "SC09",
+        "description": "Arjun accuses Raghav of passing off Delhi money orders as shop profit and hiding their father's letters. He shoves Raghav, knocking the brass lantern to the ground where it shatters. Kamla stops them.",
+        "dramatic_function": "conflict",
+        "importance": "high",
+        "spoiler_level": "moderate",
+        "key_dialogue_ids": [
+          "DLG_035",
+          "DLG_037",
+          "DLG_038"
+        ]
+      },
+      {
+        "event_id": "EVENT_10",
+        "scene_id": "SC10",
+        "description": "Raghav hands the letter to Arjun, who reads it aloud: Raghav forged Shankar's signature on a loan against the house, and Meera left to repay it in secret at their father's request. Kamla realises the family has lived on Meera's money.",
+        "dramatic_function": "reveal",
+        "importance": "high",
+        "spoiler_level": "major",
+        "key_dialogue_ids": [
+          "DLG_039",
+          "DLG_040",
+          "DLG_041",
+          "DLG_042",
+          "DLG_043"
+        ]
+      },
+      {
+        "event_id": "EVENT_11",
+        "scene_id": "SC11",
+        "description": "At dawn Arjun apologises to Meera, calling her Jiji for the first time in the episode. She forgives him, and he teases her about her tea.",
+        "dramatic_function": "resolution",
+        "importance": "medium",
+        "spoiler_level": "moderate",
+        "key_dialogue_ids": [
+          "DLG_044",
+          "DLG_045"
+        ]
+      },
+      {
+        "event_id": "EVENT_12",
+        "scene_id": "SC12",
+        "description": "Raghav leaves to confess to the bank and the panchayat. As he goes, Bansi arrives with a registered letter for Meera from Delhi; Meera recognises the handwriting and goes pale.",
+        "dramatic_function": "cliffhanger",
+        "importance": "medium",
+        "spoiler_level": "moderate",
+        "key_dialogue_ids": [
+          "DLG_048",
+          "DLG_049"
+        ]
+      }
+    ],
+    "emotional_beats": [
+      {
+        "sequence": 1,
+        "scene_id": "SC01",
+        "tones": [
+          "nostalgic",
+          "warm",
+          "wistful"
+        ]
+      },
+      {
+        "sequence": 2,
+        "scene_id": "SC02",
+        "tones": [
+          "joyful",
+          "tense",
+          "shocked"
+        ]
+      },
+      {
+        "sequence": 3,
+        "scene_id": "SC03",
+        "tones": [
+          "warm",
+          "playful",
+          "bittersweet"
+        ]
+      },
+      {
+        "sequence": 4,
+        "scene_id": "SC04",
+        "tones": [
+          "tense",
+          "secretive",
+          "uneasy"
+        ]
+      },
+      {
+        "sequence": 5,
+        "scene_id": "SC05",
+        "tones": [
+          "angry",
+          "hurt",
+          "raw"
+        ]
+      },
+      {
+        "sequence": 6,
+        "scene_id": "SC06",
+        "tones": [
+          "nostalgic",
+          "humorous",
+          "tender"
+        ]
+      },
+      {
+        "sequence": 7,
+        "scene_id": "SC07",
+        "tones": [
+          "curious",
+          "humorous",
+          "suspicious"
+        ]
+      },
+      {
+        "sequence": 8,
+        "scene_id": "SC08",
+        "tones": [
+          "menacing",
+          "tense",
+          "whispered"
+        ]
+      },
+      {
+        "sequence": 9,
+        "scene_id": "SC09",
+        "tones": [
+          "explosive",
+          "angry",
+          "desperate"
+        ]
+      },
+      {
+        "sequence": 10,
+        "scene_id": "SC10",
+        "tones": [
+          "devastating",
+          "cathartic",
+          "tearful"
+        ]
+      },
+      {
+        "sequence": 11,
+        "scene_id": "SC11",
+        "tones": [
+          "tender",
+          "relieved",
+          "light"
+        ]
+      },
+      {
+        "sequence": 12,
+        "scene_id": "SC12",
+        "tones": [
+          "resolved",
+          "intriguing",
+          "uneasy"
+        ]
+      }
+    ],
+    "conflicts": [
+      {
+        "conflict_id": "CONFLICT_01",
+        "scene_id": "SC05",
+        "character_ids": [
+          "CHAR_ARJUN",
+          "CHAR_MEERA"
+        ],
+        "description": "On the rooftop Arjun confronts Meera for leaving on the night of their father's terahvi while their mother sold her bangles. Meera insists she had a reason but will not say it.",
+        "dialogue_ids": [
+          "DLG_020",
+          "DLG_022",
+          "DLG_023",
+          "DLG_024"
+        ]
+      },
+      {
+        "conflict_id": "CONFLICT_02",
+        "scene_id": "SC08",
+        "character_ids": [
+          "CHAR_MEERA",
+          "CHAR_RAGHAV"
+        ],
+        "description": "Meera finds Raghav searching the storeroom with his ledger. She demands Papa's letter; he reminds her of a promise she has kept for six years and warns that some truths can burn a house down.",
+        "dialogue_ids": [
+          "DLG_031",
+          "DLG_032",
+          "DLG_033",
+          "DLG_034"
+        ]
+      },
+      {
+        "conflict_id": "CONFLICT_03",
+        "scene_id": "SC09",
+        "character_ids": [
+          "CHAR_ARJUN",
+          "CHAR_MEERA",
+          "CHAR_RAGHAV",
+          "CHAR_KAMLA"
+        ],
+        "description": "Arjun accuses Raghav of passing off Delhi money orders as shop profit and hiding their father's letters. He shoves Raghav, knocking the brass lantern to the ground where it shatters. Kamla stops them.",
+        "dialogue_ids": [
+          "DLG_035",
+          "DLG_037",
+          "DLG_038"
+        ]
+      }
+    ],
+    "stakes": [
+      {
+        "prop_id": "PROP_LETTER_01",
+        "description": "Blue inland letter written by Shankar before his death, addressed to Kamla and Arjun, marked 'open when Meera is home'.",
+        "scene_ids": [
+          "SC02",
+          "SC04",
+          "SC07",
+          "SC08",
+          "SC10",
+          "SC11"
+        ]
+      },
+      {
+        "prop_id": "PROP_MONEY_ORDER_01",
+        "description": "Monthly money-order slips from Delhi, always received in Raghav's name.",
+        "scene_ids": [
+          "SC04",
+          "SC07",
+          "SC09"
+        ]
+      }
+    ],
+    "protected_reveals": [
+      {
+        "scene_id": "SC08",
+        "spoiler_level": "moderate",
+        "dialogue_ids": [
+          "DLG_032",
+          "DLG_034"
+        ]
+      },
+      {
+        "scene_id": "SC09",
+        "spoiler_level": "moderate",
+        "dialogue_ids": [
+          "DLG_035"
+        ]
+      },
+      {
+        "scene_id": "SC10",
+        "spoiler_level": "major",
+        "dialogue_ids": [
+          "DLG_039",
+          "DLG_040",
+          "DLG_041",
+          "DLG_042",
+          "DLG_043"
+        ]
+      },
+      {
+        "scene_id": "SC11",
+        "spoiler_level": "moderate",
+        "dialogue_ids": [
+          "DLG_044",
+          "DLG_045"
+        ]
+      },
+      {
+        "scene_id": "SC12",
+        "spoiler_level": "moderate",
+        "dialogue_ids": [
+          "DLG_047"
+        ]
+      }
+    ],
+    "trailer_hooks": [
+      {
+        "dialogue_id": "DLG_003",
+        "scene_id": "SC01",
+        "speaker_id": "CHAR_BANSI",
+        "text": "Six years I've delivered letters to that house. Not one ever came from you.",
+        "tone": "wistful",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_004",
+        "scene_id": "SC01",
+        "speaker_id": "CHAR_MEERA",
+        "text": "Some things can't be written down, Kaka.",
+        "tone": "reflective",
+        "spoiler_level": "none",
+        "subtitle_safe": false
+      },
+      {
+        "dialogue_id": "DLG_006",
+        "scene_id": "SC02",
+        "speaker_id": "CHAR_ARJUN",
+        "text": "Guests usually send word before they come.",
+        "tone": "cold",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_008",
+        "scene_id": "SC02",
+        "speaker_id": "CHAR_ARJUN",
+        "text": "Guests at least say goodbye when they leave.",
+        "tone": "bitter",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_009",
+        "scene_id": "SC02",
+        "speaker_id": "CHAR_KAMLA",
+        "text": "Before he passed, your father wrote a letter. He said, open it only when Meera is home.",
+        "tone": "solemn",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_010",
+        "scene_id": "SC02",
+        "speaker_id": "CHAR_KAMLA",
+        "text": "I kept it in this box for six years... It's gone.",
+        "tone": "shocked",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_012",
+        "scene_id": "SC03",
+        "speaker_id": "CHAR_MEERA",
+        "text": "They have rotis, Maa. They just don't have you shouting at them.",
+        "tone": "humorous",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_015",
+        "scene_id": "SC03",
+        "speaker_id": "CHAR_KAMLA",
+        "text": "Then tell me one thing. Why did my daughter leave without a single word?",
+        "tone": "pleading",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_017",
+        "scene_id": "SC04",
+        "speaker_id": "CHAR_BANSI",
+        "text": "Money order from Delhi, Raghav bhai. Twelve thousand, same as every month.",
+        "tone": "matter-of-fact",
+        "spoiler_level": "minor",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_019",
+        "scene_id": "SC04",
+        "speaker_id": "CHAR_RAGHAV",
+        "text": "Some old letters had better stay buried.",
+        "tone": "ominous",
+        "spoiler_level": "minor",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_020",
+        "scene_id": "SC05",
+        "speaker_id": "CHAR_ARJUN",
+        "text": "You left on the night of Papa's terahvi. The lamps were still burning.",
+        "tone": "bitter",
+        "spoiler_level": "none",
+        "subtitle_safe": false
+      },
+      {
+        "dialogue_id": "DLG_022",
+        "scene_id": "SC05",
+        "speaker_id": "CHAR_ARJUN",
+        "text": "A reason? Maa sold her bangles while you found your reason.",
+        "tone": "angry",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_023",
+        "scene_id": "SC05",
+        "speaker_id": "CHAR_MEERA",
+        "text": "If I told you, you'd hate someone else instead of me. I chose me.",
+        "tone": "anguished",
+        "spoiler_level": "minor",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_024",
+        "scene_id": "SC05",
+        "speaker_id": "CHAR_ARJUN",
+        "text": "Don't do that. Don't make leaving sound like a sacrifice.",
+        "tone": "furious",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_025",
+        "scene_id": "SC06",
+        "speaker_id": "CHAR_MEERA",
+        "text": "Remember when Papa let you drive the tractor and you flattened Chacha's mustard?",
+        "tone": "nostalgic",
+        "spoiler_level": "none",
+        "subtitle_safe": false
+      },
+      {
+        "dialogue_id": "DLG_026",
+        "scene_id": "SC06",
+        "speaker_id": "CHAR_ARJUN",
+        "text": "He didn't speak to me for a whole month. Best month of my life.",
+        "tone": "dry humour",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_028",
+        "scene_id": "SC07",
+        "speaker_id": "CHAR_ARJUN",
+        "text": "Kaka, who sends Chacha a money order every month?",
+        "tone": "probing",
+        "spoiler_level": "none",
+        "subtitle_safe": false
+      },
+      {
+        "dialogue_id": "DLG_030",
+        "scene_id": "SC07",
+        "speaker_id": "CHAR_BANSI",
+        "text": "But I'll tell you this. Last week your Chacha asked if any of Shankar's letters were still lying here.",
+        "tone": "conspiratorial",
+        "spoiler_level": "minor",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_031",
+        "scene_id": "SC08",
+        "speaker_id": "CHAR_MEERA",
+        "text": "Looking for something, Chacha? Or hiding it?",
+        "tone": "confrontational",
+        "spoiler_level": "minor",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_033",
+        "scene_id": "SC08",
+        "speaker_id": "CHAR_MEERA",
+        "text": "Where is Papa's letter?",
+        "tone": "demanding",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_037",
+        "scene_id": "SC09",
+        "speaker_id": "CHAR_ARJUN",
+        "text": "You held our letters. You bloody coward!",
+        "tone": "enraged",
+        "spoiler_level": "minor",
+        "subtitle_safe": false
+      },
+      {
+        "dialogue_id": "DLG_038",
+        "scene_id": "SC09",
+        "speaker_id": "CHAR_KAMLA",
+        "text": "Enough! Both of you - enough!",
+        "tone": "desperate",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_048",
+        "scene_id": "SC12",
+        "speaker_id": "CHAR_BANSI",
+        "text": "Registered post for Meera beti. From Delhi, and not in any hand I know.",
+        "tone": "intrigued",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      },
+      {
+        "dialogue_id": "DLG_049",
+        "scene_id": "SC12",
+        "speaker_id": "CHAR_MEERA",
+        "text": "I know that handwriting.",
+        "tone": "uneasy",
+        "spoiler_level": "none",
+        "subtitle_safe": true
+      }
+    ],
+    "scene_functions": [
+      {
+        "scene_id": "SC01",
+        "sequence": 1,
+        "dramatic_function": "setup",
+        "importance": "low",
+        "spoiler_level": "none",
+        "emotional_tone": [
+          "nostalgic",
+          "warm",
+          "wistful"
+        ],
+        "character_ids": [
+          "CHAR_MEERA",
+          "CHAR_BANSI"
+        ],
+        "performance": [
+          {
+            "audience": "dialect_region",
+            "campaign_id": "CMP_REGIONAL_TEASER",
+            "engagement_score": 76.0
+          }
+        ]
+      },
+      {
+        "scene_id": "SC02",
+        "sequence": 2,
+        "dramatic_function": "inciting_incident",
+        "importance": "high",
+        "spoiler_level": "none",
+        "emotional_tone": [
+          "joyful",
+          "tense",
+          "shocked"
+        ],
+        "character_ids": [
+          "CHAR_MEERA",
+          "CHAR_KAMLA",
+          "CHAR_ARJUN"
+        ],
+        "performance": [
+          {
+            "audience": "family",
+            "campaign_id": "CMP_PRELAUNCH_CLIPS",
+            "engagement_score": 74.0
+          }
+        ]
+      },
+      {
+        "scene_id": "SC03",
+        "sequence": 3,
+        "dramatic_function": "relationship",
+        "importance": "medium",
+        "spoiler_level": "minor",
+        "emotional_tone": [
+          "warm",
+          "playful",
+          "bittersweet"
+        ],
+        "character_ids": [
+          "CHAR_MEERA",
+          "CHAR_KAMLA"
+        ],
+        "performance": [
+          {
+            "audience": "family",
+            "campaign_id": "CMP_PRELAUNCH_CLIPS",
+            "engagement_score": 78.0
+          },
+          {
+            "audience": "young_adult",
+            "campaign_id": "CMP_PRELAUNCH_CLIPS",
+            "engagement_score": 49.0
+          }
+        ]
+      },
+      {
+        "scene_id": "SC04",
+        "sequence": 4,
+        "dramatic_function": "mystery",
+        "importance": "high",
+        "spoiler_level": "minor",
+        "emotional_tone": [
+          "tense",
+          "secretive",
+          "uneasy"
+        ],
+        "character_ids": [
+          "CHAR_RAGHAV",
+          "CHAR_BANSI"
+        ],
+        "performance": []
+      },
+      {
+        "scene_id": "SC05",
+        "sequence": 5,
+        "dramatic_function": "conflict",
+        "importance": "high",
+        "spoiler_level": "minor",
+        "emotional_tone": [
+          "angry",
+          "hurt",
+          "raw"
+        ],
+        "character_ids": [
+          "CHAR_ARJUN",
+          "CHAR_MEERA"
+        ],
+        "performance": [
+          {
+            "audience": "young_adult",
+            "campaign_id": "CMP_PRELAUNCH_CLIPS",
+            "engagement_score": 79.0
+          }
+        ]
+      },
+      {
+        "scene_id": "SC06",
+        "sequence": 6,
+        "dramatic_function": "relationship",
+        "importance": "low",
+        "spoiler_level": "none",
+        "emotional_tone": [
+          "nostalgic",
+          "humorous",
+          "tender"
+        ],
+        "character_ids": [
+          "CHAR_MEERA",
+          "CHAR_ARJUN"
+        ],
+        "performance": [
+          {
+            "audience": "dialect_region",
+            "campaign_id": "CMP_REGIONAL_TEASER",
+            "engagement_score": 80.0
+          },
+          {
+            "audience": "family",
+            "campaign_id": "CMP_PRELAUNCH_CLIPS",
+            "engagement_score": 71.0
+          }
+        ]
+      },
+      {
+        "scene_id": "SC07",
+        "sequence": 7,
+        "dramatic_function": "investigation",
+        "importance": "medium",
+        "spoiler_level": "minor",
+        "emotional_tone": [
+          "curious",
+          "humorous",
+          "suspicious"
+        ],
+        "character_ids": [
+          "CHAR_ARJUN",
+          "CHAR_BANSI"
+        ],
+        "performance": [
+          {
+            "audience": "dialect_region",
+            "campaign_id": "CMP_REGIONAL_TEASER",
+            "engagement_score": 79.0
+          }
+        ]
+      },
+      {
+        "scene_id": "SC08",
+        "sequence": 8,
+        "dramatic_function": "conflict",
+        "importance": "medium",
+        "spoiler_level": "moderate",
+        "emotional_tone": [
+          "menacing",
+          "tense",
+          "whispered"
+        ],
+        "character_ids": [
+          "CHAR_MEERA",
+          "CHAR_RAGHAV"
+        ],
+        "performance": [
+          {
+            "audience": "dialect_region",
+            "campaign_id": "CMP_REGIONAL_TEASER",
+            "engagement_score": 83.0
+          },
+          {
+            "audience": "young_adult",
+            "campaign_id": "CMP_PRELAUNCH_CLIPS",
+            "engagement_score": 74.0
+          }
+        ]
+      },
+      {
+        "scene_id": "SC09",
+        "sequence": 9,
+        "dramatic_function": "conflict",
+        "importance": "high",
+        "spoiler_level": "moderate",
+        "emotional_tone": [
+          "explosive",
+          "angry",
+          "desperate"
+        ],
+        "character_ids": [
+          "CHAR_ARJUN",
+          "CHAR_MEERA",
+          "CHAR_RAGHAV",
+          "CHAR_KAMLA"
+        ],
+        "performance": [
+          {
+            "audience": "family",
+            "campaign_id": "CMP_PRELAUNCH_CLIPS",
+            "engagement_score": 52.0
+          },
+          {
+            "audience": "young_adult",
+            "campaign_id": "CMP_PRELAUNCH_CLIPS",
+            "engagement_score": 84.0
+          }
+        ]
+      },
+      {
+        "scene_id": "SC10",
+        "sequence": 10,
+        "dramatic_function": "reveal",
+        "importance": "high",
+        "spoiler_level": "major",
+        "emotional_tone": [
+          "devastating",
+          "cathartic",
+          "tearful"
+        ],
+        "character_ids": [
+          "CHAR_RAGHAV",
+          "CHAR_ARJUN",
+          "CHAR_KAMLA",
+          "CHAR_MEERA"
+        ],
+        "performance": [
+          {
+            "audience": "dialect_region",
+            "campaign_id": "CMP_REGIONAL_TEASER",
+            "engagement_score": 90.0
+          },
+          {
+            "audience": "family",
+            "campaign_id": "CMP_PRELAUNCH_CLIPS",
+            "engagement_score": 88.0
+          },
+          {
+            "audience": "young_adult",
+            "campaign_id": "CMP_PRELAUNCH_CLIPS",
+            "engagement_score": 91.0
+          }
+        ]
+      },
+      {
+        "scene_id": "SC11",
+        "sequence": 11,
+        "dramatic_function": "resolution",
+        "importance": "medium",
+        "spoiler_level": "moderate",
+        "emotional_tone": [
+          "tender",
+          "relieved",
+          "light"
+        ],
+        "character_ids": [
+          "CHAR_ARJUN",
+          "CHAR_MEERA"
+        ],
+        "performance": []
+      },
+      {
+        "scene_id": "SC12",
+        "sequence": 12,
+        "dramatic_function": "cliffhanger",
+        "importance": "medium",
+        "spoiler_level": "moderate",
+        "emotional_tone": [
+          "resolved",
+          "intriguing",
+          "uneasy"
+        ],
+        "character_ids": [
+          "CHAR_KAMLA",
+          "CHAR_MEERA",
+          "CHAR_RAGHAV",
+          "CHAR_BANSI"
+        ],
+        "performance": [
+          {
+            "audience": "young_adult",
+            "campaign_id": "CMP_PRELAUNCH_CLIPS",
+            "engagement_score": 70.0
+          }
+        ]
+      }
+    ]
+  },
+  "sensitive_content": [
+    {
+      "scene_id": "SC02",
+      "category": "sensitive_context",
+      "severity": "mild",
+      "note": "References the father's death; grief framed gently."
+    },
+    {
+      "scene_id": "SC05",
+      "category": "sensitive_context",
+      "severity": "mild",
+      "note": "Refers to mourning rituals after the father's death."
+    },
+    {
+      "scene_id": "SC08",
+      "category": "frightening",
+      "severity": "mild",
+      "note": "Dark storeroom, looming figure, threatening tone."
+    },
+    {
+      "scene_id": "SC08",
+      "category": "misleading_context",
+      "severity": "moderate",
+      "note": "Out of context, 'burn a house down' reads as a literal arson threat; it is a metaphor."
+    },
+    {
+      "scene_id": "SC09",
+      "category": "violence",
+      "severity": "moderate",
+      "note": "Arjun shoves Raghav; lantern shatters. No injury shown."
+    },
+    {
+      "scene_id": "SC09",
+      "category": "strong_language",
+      "severity": "mild",
+      "note": "One insult ('bloody coward')."
+    },
+    {
+      "scene_id": "SC09",
+      "category": "misleading_context",
+      "severity": "moderate",
+      "note": "Cut without the preceding accusation, the shove makes Arjun look like the aggressor toward an innocent elder."
+    },
+    {
+      "scene_id": "SC10",
+      "category": "sensitive_context",
+      "severity": "moderate",
+      "note": "Forgery, family debt and a deathbed request."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "audience": "family",
+    "display_name": "Family viewers",
+    "description": "Households choosing something to watch together across generations.",
+    "preferred_themes": ["homecoming", "mother-daughter bond", "sibling relationship", "family unity"],
+    "preferred_tones": ["warm", "gentle humour", "hopeful suspense"],
+    "avoid": ["physical confrontation", "insults", "threatening framing", "resolution spoilers"],
+    "pacing": "measured; let emotional beats breathe",
+    "target_trailer_duration_seconds": 45,
+    "positioning_notes": "Frame the missing letter as a gentle family mystery anchored on Kamla and Meera's warmth.",
+    "evidence": [
+      {"claim": "Warm relationship clips held attention better than conflict clips with this audience.", "source": "synthetic_assignment_data", "campaign_ids": ["CMP_PRELAUNCH_CLIPS"]},
+      {"claim": "The courtyard confrontation drew negative comments about aggression from family viewers.", "source": "synthetic_assignment_data", "campaign_ids": ["CMP_PRELAUNCH_CLIPS"]}
+    ],
+    "data_provenance": "Hypothetical profile written for the assignment; not derived from real audience research."
+  },
+  {
+    "audience": "young_adult",
+    "display_name": "Young adult viewers",
+    "description": "Viewers who respond to fast pacing, sharp dialogue and characters navigating identity and family expectations.",
+    "preferred_themes": ["sibling conflict", "secrets", "identity and independence", "banter"],
+    "preferred_tones": ["tense", "witty", "emotionally charged"],
+    "avoid": ["slow exposition", "major spoilers", "burned-in insults"],
+    "pacing": "fast; quick cuts between conflict and humour",
+    "target_trailer_duration_seconds": 60,
+    "positioning_notes": "Lead with the Arjun-Meera conflict and the question of why she left; use humour as relief beats.",
+    "evidence": [
+      {"claim": "Conflict and cliffhanger clips outperformed domestic scenes with this audience.", "source": "synthetic_assignment_data", "campaign_ids": ["CMP_PRELAUNCH_CLIPS"]}
+    ],
+    "data_provenance": "Hypothetical profile written for the assignment; not derived from real audience research."
+  },
+  {
+    "audience": "dialect_region",
+    "display_name": "Haryanvi-speaking regional viewers",
+    "description": "Viewers in the episode's home region who value authentic language, familiar settings and accurately portrayed relationships.",
+    "preferred_themes": ["village life", "family relationships", "local characters", "regional humour"],
+    "preferred_tones": ["authentic", "warm", "wry"],
+    "avoid": ["inaccurate kinship terms", "mistranslated dialogue", "caricatured accents", "resolution spoilers"],
+    "pacing": "moderate; let dialogue lines land in full",
+    "target_trailer_duration_seconds": 60,
+    "positioning_notes": "Feature Bansi Kaka and village texture; keep original-language lines and kinship terms intact.",
+    "evidence": [
+      {"claim": "Clips featuring the postman and village settings had the highest completion rates in the regional teaser test.", "source": "synthetic_assignment_data", "campaign_ids": ["CMP_REGIONAL_TEASER"]}
+    ],
+    "data_provenance": "Hypothetical profile written for the assignment; not derived from real audience research."
+  }
+]

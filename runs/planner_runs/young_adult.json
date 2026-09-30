@@ -1,0 +1,102 @@
+{
+  "format_version": 1,
+  "planner_version": "llm-planner/claude-opus-5-5/high",
+  "recorded_at": "2026-09-30T10:44:13.991631Z",
+  "recorded_for": {
+    "episode_id": "EP_AAKHRI_CHITTHI_S01E01",
+    "audience": "young_adult",
+    "evidence_fingerprint": "f855637bbf6a9b74"
+  },
+  "model_calls": 1,
+  "usage": {
+    "input_tokens": 9056,
+    "output_tokens": 3012,
+    "model": "claude-opus-5-5"
+  },
+  "latency_seconds": 31.988,
+  "response": {
+    "audience": "young_adult",
+    "trailer_id": "TRL_AAKHRI_CHITTHI_YA_01",
+    "title": "Aakhri Chitthi - Why Did She Leave?",
+    "hook": "If I told you, you'd hate someone else instead of me. I chose me.",
+    "positioning": "A sharp, fast-cut sibling showdown: Meera is back after six years, Arjun has not forgiven her, and nobody knows why she left. Dry wit cuts through the tension without giving the answer away.",
+    "rationale": "Built around the audience strategy: lead with the Arjun-Meera conflict and the unanswered question of why she left, and use humour as relief. Clip 1 opens on conflict with Arjun's cold 'guest' jabs (SC02). Clip 2 adds a witty relief beat when Meera dodges her mother's question with a joke about the dal (SC03). Clips 3 and 4 escalate into the rooftop confrontation and end on Meera's cryptic 'I chose me', teasing a secret without revealing it (SC05). Clips run in story order and total about 52 seconds, under the 90-second maximum and close to the 60-second target. The plan avoids SC08 and SC11, which are protected or unavailable. It also avoids every line flagged for subtitle review or misleading context, and uses no unavailable music.",
+    "clips": [
+      {
+        "clip_id": "CLIP_001",
+        "scene_id": "SC02",
+        "source_in": "00:01:10.000",
+        "source_out": "00:01:25.000",
+        "dialogue_ids": [
+          "DLG_006",
+          "DLG_007",
+          "DLG_008"
+        ],
+        "music_id": null,
+        "purpose": "Cold open on conflict: Arjun greets his returning sister as a 'guest', establishing the rift in seconds.",
+        "reason": "Opens on conflict, a preferred opening function for this audience, with a tense, witty exchange. Arjun's barbed lines DLG_006 and DLG_008 are marked as trailer hooks, and Meera's hurt reply DLG_007 sets up the sibling conflict theme without slow exposition.",
+        "evidence": [
+          "SC02",
+          "DLG_006",
+          "DLG_007",
+          "DLG_008"
+        ]
+      },
+      {
+        "clip_id": "CLIP_002",
+        "scene_id": "SC03",
+        "source_in": "00:02:54.000",
+        "source_out": "00:03:09.000",
+        "dialogue_ids": [
+          "DLG_015",
+          "DLG_016"
+        ],
+        "music_id": "MUS_02",
+        "purpose": "Poses the central question and releases the tension with a comic deflection.",
+        "reason": "Kamla's pleading DLG_015 states the trailer's core mystery: why did she leave without a word. Meera's deadpan dodge DLG_016 ('The dal is burning.') delivers the witty relief beat the strategy asks for. The warm folk track MUS_02 fits the playful tone of SC03 and contrasts with the conflict clips on either side.",
+        "evidence": [
+          "SC03",
+          "DLG_015",
+          "DLG_016",
+          "MUS_02"
+        ]
+      },
+      {
+        "clip_id": "CLIP_003",
+        "scene_id": "SC05",
+        "source_in": "00:04:36.000",
+        "source_out": "00:04:48.000",
+        "dialogue_ids": [
+          "DLG_021",
+          "DLG_022"
+        ],
+        "music_id": "MUS_04",
+        "purpose": "Escalation: the rooftop fight turns raw as Arjun throws Meera's 'reason' back at her.",
+        "reason": "SC05 is the episode's main conflict scene (angry, hurt, raw), which fits the emotionally charged tone for this audience. Meera's strained DLG_021 and Arjun's angry hook line DLG_022 hit the sibling conflict and secrets themes. The punchy stinger MUS_04 supports the fast pacing. The subtitle-flagged DLG_020 is left outside the range.",
+        "evidence": [
+          "SC05",
+          "DLG_021",
+          "DLG_022",
+          "MUS_04"
+        ]
+      },
+      {
+        "clip_id": "CLIP_004",
+        "scene_id": "SC05",
+        "source_in": "00:04:53.000",
+        "source_out": "00:05:03.000",
+        "dialogue_ids": [
+          "DLG_023"
+        ],
+        "music_id": "MUS_01",
+        "purpose": "Closing hook: Meera hints that her secret protects someone, leaving the question open.",
+        "reason": "DLG_023 is an anguished trailer-hook line that teases the secret and Meera's claim to her own choice (identity and independence) without revealing the reason, so it avoids major spoilers. The main theme MUS_01, which is melancholic and hopeful, gives an emotional button to end on. DLG_024 is kept outside the range.",
+        "evidence": [
+          "SC05",
+          "DLG_023",
+          "MUS_01"
+        ]
+      }
+    ]
+  }
+}

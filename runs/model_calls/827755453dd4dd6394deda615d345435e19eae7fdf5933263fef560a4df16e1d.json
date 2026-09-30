@@ -1,0 +1,38 @@
+{
+  "format_version": 1,
+  "recorded_at": "2026-09-30T13:23:06.291869Z",
+  "response": {
+    "provider": "gemini",
+    "model": "gemini-3.8-flash",
+    "capability": "vision",
+    "text": "The image displays a pixelated television test pattern featuring a central circle filled with colorful vertical bars crossed by a horizontal rainbow gradient stripe near the bottom.",
+    "request_fingerprint": "827755453dd4dd6394deda615d345435e19eae7fdf5933263fef560a4df16e1d",
+    "inputs": [
+      {
+        "type": "image",
+        "text": null,
+        "file_name": "test_frame.jpg",
+        "mime_type": "image/jpeg",
+        "size_bytes": 1816,
+        "sha256": "9500196ca198e525a0614f33c8c84e5ae56ff15b6551226c51583622552d00e0"
+      },
+      {
+        "type": "text",
+        "text": "Describe what is visible in this image in one sentence.",
+        "file_name": null,
+        "mime_type": null,
+        "size_bytes": null,
+        "sha256": null
+      }
+    ],
+    "usage": {
+      "input_tokens": 1101,
+      "output_tokens": 28,
+      "model": "gemini-3.8-flash"
+    },
+    "latency_seconds": 6.8,
+    "model_calls": 1,
+    "estimated_cost": null,
+    "replayed": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "trailer_id": "TRL_FAMILY_WARMTH",
+  "clips": [
+    {
+      "clip_id": "CLIP_001",
+      "scene_id": "SC02",
+      "source_in": "00:01:04.000",
+      "source_out": "00:01:25.000",
+      "dialogue_ids": ["DLG_005", "DLG_006", "DLG_007", "DLG_008"],
+      "music_id": "MUS_02",
+      "purpose": "homecoming_warmth_and_tension"
+    },
+    {
+      "clip_id": "CLIP_002",
+      "scene_id": "SC03",
+      "source_in": "00:02:17.000",
+      "source_out": "00:02:28.000",
+      "dialogue_ids": ["DLG_011", "DLG_012"],
+      "music_id": "MUS_02",
+      "purpose": "mother_daughter_humour"
+    },
+    {
+      "clip_id": "CLIP_003",
+      "scene_id": "SC06",
+      "source_in": "00:05:44.000",
+      "source_out": "00:05:56.000",
+      "dialogue_ids": ["DLG_025", "DLG_026"],
+      "music_id": "MUS_04",
+      "purpose": "sibling_memory"
+    }
+  ]
+}

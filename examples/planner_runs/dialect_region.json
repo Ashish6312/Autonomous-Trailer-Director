@@ -1,0 +1,78 @@
+{
+  "format_version": 1,
+  "planner_version": "recorded-planner-fixture-0.1",
+  "recorded_at": "2026-09-29T12:00:00+05:30",
+  "recorded_for": {
+    "episode_id": "EP_AAKHRI_CHITTHI_S01E01",
+    "audience": "dialect_region",
+    "evidence_fingerprint": "f855637bbf6a9b74"
+  },
+  "model_calls": 1,
+  "response": {
+    "audience": "dialect_region",
+    "trailer_id": "TRL_DIALECT_REGION_REPLAY",
+    "title": "Aakhri Chitthi: Bansi Kaka Knows",
+    "hook": "Six years I've delivered letters to that house. Not one ever came from you.",
+    "positioning": "A village mystery told through the people who know everyone's letters.",
+    "rationale": "Recorded plan: lead with Bansi Kaka and village texture, keep kinship terms in the original, no protected reveals.",
+    "clips": [
+      {
+        "clip_id": "CLIP_001",
+        "scene_id": "SC01",
+        "source_in": "00:00:13.500",
+        "source_out": "00:00:21.000",
+        "dialogue_ids": [
+          "DLG_001",
+          "DLG_002"
+        ],
+        "music_id": "MUS_02",
+        "purpose": "village_welcome",
+        "reason": "Bansi Kaka recognising Meera at the bus stand (DLG_001-DLG_002) opens on village life and keeps the honorific 'Kaka'; SC01 scored 76 in CMP_REGIONAL_TEASER.",
+        "evidence": [
+          "SC01",
+          "DLG_001",
+          "DLG_002",
+          "CHAR_BANSI",
+          "CMP_REGIONAL_TEASER"
+        ]
+      },
+      {
+        "clip_id": "CLIP_002",
+        "scene_id": "SC06",
+        "source_in": "00:06:04.500",
+        "source_out": "00:06:10.500",
+        "dialogue_ids": [
+          "DLG_027"
+        ],
+        "music_id": "MUS_02",
+        "purpose": "local_wisdom",
+        "reason": "Meera recalls Papa's saying about the tubewell (DLG_027) in the family fields, a familiar regional setting (SC06 scored 80 in CMP_REGIONAL_TEASER).",
+        "evidence": [
+          "SC06",
+          "DLG_027",
+          "CMP_REGIONAL_TEASER"
+        ]
+      },
+      {
+        "clip_id": "CLIP_003",
+        "scene_id": "SC07",
+        "source_in": "00:06:56.500",
+        "source_out": "00:07:16.500",
+        "dialogue_ids": [
+          "DLG_029",
+          "DLG_030"
+        ],
+        "music_id": "MUS_02",
+        "purpose": "post_office_mystery",
+        "reason": "Bansi's postal-rules joke and his hint about Chacha asking for Shankar's letters (DLG_029-DLG_030) carry the mystery in authentic local dialogue.",
+        "evidence": [
+          "SC07",
+          "DLG_029",
+          "DLG_030",
+          "CHAR_BANSI",
+          "CHAR_RAGHAV"
+        ]
+      }
+    ]
+  }
+}

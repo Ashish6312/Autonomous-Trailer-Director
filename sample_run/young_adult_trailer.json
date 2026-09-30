@@ -1,0 +1,452 @@
+{
+  "trailer_id": "TRL_AAKHRI_CHITTHI_YA_01",
+  "audience": "young_adult",
+  "verdict": "PASS",
+  "status": "accepted",
+  "evidence_fingerprint": "f855637bbf6a9b74",
+  "context": {
+    "audience": "young_adult",
+    "evaluation_date": "2026-11-14",
+    "territory": "IN"
+  },
+  "planner": {
+    "source": "recorded live Claude plan (replayed)",
+    "mode": "replay",
+    "version": "llm-planner/claude-opus-5-5/high",
+    "served_by": "claude-opus-5-5",
+    "latency_seconds": null
+  },
+  "title": "Aakhri Chitthi - Why Did She Leave?",
+  "audience_promise": "A sharp, fast-cut sibling showdown: Meera is back after six years, Arjun has not forgiven her, and nobody knows why she left. Dry wit cuts through the tension without giving the answer away.",
+  "hook": {
+    "text": "If I told you, you'd hate someone else instead of me. I chose me.",
+    "source_dialogue_ids": [
+      "DLG_023"
+    ]
+  },
+  "rationale": "Built around the audience strategy: lead with the Arjun-Meera conflict and the unanswered question of why she left, and use humour as relief. Clip 1 opens on conflict with Arjun's cold 'guest' jabs (SC02). Clip 2 adds a witty relief beat when Meera dodges her mother's question with a joke about the dal (SC03). Clips 3 and 4 escalate into the rooftop confrontation and end on Meera's cryptic 'I chose me', teasing a secret without revealing it (SC05). Clips run in story order and total about 52 seconds, under the 90-second maximum and close to the 60-second target. The plan avoids SC08 and SC11, which are protected or unavailable. It also avoids every line flagged for subtitle review or misleading context, and uses no unavailable music.",
+  "emotional_journey": [
+    {
+      "clip_id": "CLIP_001",
+      "scene_id": "SC02",
+      "dramatic_function": "inciting_incident",
+      "emotional_tone": [
+        "joyful",
+        "tense",
+        "shocked"
+      ]
+    },
+    {
+      "clip_id": "CLIP_002",
+      "scene_id": "SC03",
+      "dramatic_function": "relationship",
+      "emotional_tone": [
+        "warm",
+        "playful",
+        "bittersweet"
+      ]
+    },
+    {
+      "clip_id": "CLIP_003",
+      "scene_id": "SC05",
+      "dramatic_function": "conflict",
+      "emotional_tone": [
+        "angry",
+        "hurt",
+        "raw"
+      ]
+    },
+    {
+      "clip_id": "CLIP_004",
+      "scene_id": "SC05",
+      "dramatic_function": "conflict",
+      "emotional_tone": [
+        "angry",
+        "hurt",
+        "raw"
+      ]
+    }
+  ],
+  "duration_seconds": 52.0,
+  "target_duration_seconds": 60,
+  "max_duration_seconds": 90,
+  "segments": [
+    {
+      "clip_id": "CLIP_001",
+      "scene_id": "SC02",
+      "source_in": "00:01:10.000",
+      "source_out": "00:01:25.000",
+      "duration_seconds": 15.0,
+      "purpose": "Cold open on conflict: Arjun greets his returning sister as a 'guest', establishing the rift in seconds.",
+      "video": {
+        "scene_id": "SC02",
+        "location": "Sharma haveli courtyard",
+        "time_of_day": "morning",
+        "characters": [
+          "Meera Sharma",
+          "Kamla Sharma",
+          "Arjun Sharma"
+        ],
+        "visual_tags": [
+          "courtyard",
+          "embrace",
+          "garlanded photograph",
+          "tin box",
+          "brass lantern",
+          "tulsi planter"
+        ]
+      },
+      "audio": {
+        "dialogue": [
+          {
+            "dialogue_id": "DLG_006",
+            "speaker": "Arjun Sharma",
+            "start": "00:01:12.000",
+            "end": "00:01:15.000"
+          },
+          {
+            "dialogue_id": "DLG_007",
+            "speaker": "Meera Sharma",
+            "start": "00:01:16.500",
+            "end": "00:01:19.000"
+          },
+          {
+            "dialogue_id": "DLG_008",
+            "speaker": "Arjun Sharma",
+            "start": "00:01:20.000",
+            "end": "00:01:24.000"
+          }
+        ],
+        "music": null
+      },
+      "subtitles": [
+        {
+          "dialogue_id": "DLG_006",
+          "text": "Guests usually send word before they come.",
+          "subtitle_safe": true,
+          "chars_per_second": 14.0
+        },
+        {
+          "dialogue_id": "DLG_007",
+          "text": "I'm not a guest, Arjun.",
+          "subtitle_safe": true,
+          "chars_per_second": 9.2
+        },
+        {
+          "dialogue_id": "DLG_008",
+          "text": "Guests at least say goodbye when they leave.",
+          "subtitle_safe": true,
+          "chars_per_second": 11.0
+        }
+      ],
+      "reason": "Opens on conflict, a preferred opening function for this audience, with a tense, witty exchange. Arjun's barbed lines DLG_006 and DLG_008 are marked as trailer hooks, and Meera's hurt reply DLG_007 sets up the sibling conflict theme without slow exposition.",
+      "evidence": [
+        "SC02",
+        "DLG_006",
+        "DLG_007",
+        "DLG_008"
+      ],
+      "risk_flags": []
+    },
+    {
+      "clip_id": "CLIP_002",
+      "scene_id": "SC03",
+      "source_in": "00:02:54.000",
+      "source_out": "00:03:09.000",
+      "duration_seconds": 15.0,
+      "purpose": "Poses the central question and releases the tension with a comic deflection.",
+      "video": {
+        "scene_id": "SC03",
+        "location": "Sharma kitchen",
+        "time_of_day": "afternoon",
+        "characters": [
+          "Meera Sharma",
+          "Kamla Sharma"
+        ],
+        "visual_tags": [
+          "kitchen",
+          "chulha",
+          "rotis",
+          "mother and daughter",
+          "smoke",
+          "laughter"
+        ]
+      },
+      "audio": {
+        "dialogue": [
+          {
+            "dialogue_id": "DLG_015",
+            "speaker": "Kamla Sharma",
+            "start": "00:02:55.000",
+            "end": "00:03:02.000"
+          },
+          {
+            "dialogue_id": "DLG_016",
+            "speaker": "Meera Sharma",
+            "start": "00:03:05.000",
+            "end": "00:03:08.000"
+          }
+        ],
+        "music": {
+          "music_id": "MUS_02",
+          "title": "Aangan Ki Dhoop",
+          "mood": [
+            "warm",
+            "folk",
+            "uplifting"
+          ]
+        }
+      },
+      "subtitles": [
+        {
+          "dialogue_id": "DLG_015",
+          "text": "Then tell me one thing. Why did my daughter leave without a single word?",
+          "subtitle_safe": true,
+          "chars_per_second": 10.3
+        },
+        {
+          "dialogue_id": "DLG_016",
+          "text": "The dal is burning.",
+          "subtitle_safe": true,
+          "chars_per_second": 6.3
+        }
+      ],
+      "reason": "Kamla's pleading DLG_015 states the trailer's core mystery: why did she leave without a word. Meera's deadpan dodge DLG_016 ('The dal is burning.') delivers the witty relief beat the strategy asks for. The warm folk track MUS_02 fits the playful tone of SC03 and contrasts with the conflict clips on either side.",
+      "evidence": [
+        "SC03",
+        "DLG_015",
+        "DLG_016",
+        "MUS_02"
+      ],
+      "risk_flags": []
+    },
+    {
+      "clip_id": "CLIP_003",
+      "scene_id": "SC05",
+      "source_in": "00:04:36.000",
+      "source_out": "00:04:48.000",
+      "duration_seconds": 12.0,
+      "purpose": "Escalation: the rooftop fight turns raw as Arjun throws Meera's 'reason' back at her.",
+      "video": {
+        "scene_id": "SC05",
+        "location": "Haveli rooftop",
+        "time_of_day": "evening",
+        "characters": [
+          "Arjun Sharma",
+          "Meera Sharma"
+        ],
+        "visual_tags": [
+          "rooftop",
+          "sunset",
+          "silhouettes",
+          "drying laundry",
+          "argument"
+        ]
+      },
+      "audio": {
+        "dialogue": [
+          {
+            "dialogue_id": "DLG_021",
+            "speaker": "Meera Sharma",
+            "start": "00:04:37.000",
+            "end": "00:04:41.000"
+          },
+          {
+            "dialogue_id": "DLG_022",
+            "speaker": "Arjun Sharma",
+            "start": "00:04:42.000",
+            "end": "00:04:46.500"
+          }
+        ],
+        "music": {
+          "music_id": "MUS_04",
+          "title": "Dhol Hit Stinger 03",
+          "mood": [
+            "energetic",
+            "punchy"
+          ]
+        }
+      },
+      "subtitles": [
+        {
+          "dialogue_id": "DLG_021",
+          "text": "I had a train to catch, Arjun. I had a reason.",
+          "subtitle_safe": true,
+          "chars_per_second": 11.5
+        },
+        {
+          "dialogue_id": "DLG_022",
+          "text": "A reason? Maa sold her bangles while you found your reason.",
+          "subtitle_safe": true,
+          "chars_per_second": 13.1
+        }
+      ],
+      "reason": "SC05 is the episode's main conflict scene (angry, hurt, raw), which fits the emotionally charged tone for this audience. Meera's strained DLG_021 and Arjun's angry hook line DLG_022 hit the sibling conflict and secrets themes. The punchy stinger MUS_04 supports the fast pacing. The subtitle-flagged DLG_020 is left outside the range.",
+      "evidence": [
+        "SC05",
+        "DLG_021",
+        "DLG_022",
+        "MUS_04"
+      ],
+      "risk_flags": []
+    },
+    {
+      "clip_id": "CLIP_004",
+      "scene_id": "SC05",
+      "source_in": "00:04:53.000",
+      "source_out": "00:05:03.000",
+      "duration_seconds": 10.0,
+      "purpose": "Closing hook: Meera hints that her secret protects someone, leaving the question open.",
+      "video": {
+        "scene_id": "SC05",
+        "location": "Haveli rooftop",
+        "time_of_day": "evening",
+        "characters": [
+          "Arjun Sharma",
+          "Meera Sharma"
+        ],
+        "visual_tags": [
+          "rooftop",
+          "sunset",
+          "silhouettes",
+          "drying laundry",
+          "argument"
+        ]
+      },
+      "audio": {
+        "dialogue": [
+          {
+            "dialogue_id": "DLG_023",
+            "speaker": "Meera Sharma",
+            "start": "00:04:55.000",
+            "end": "00:05:00.000"
+          }
+        ],
+        "music": {
+          "music_id": "MUS_01",
+          "title": "Chitthi (Main Theme)",
+          "mood": [
+            "melancholic",
+            "hopeful"
+          ]
+        }
+      },
+      "subtitles": [
+        {
+          "dialogue_id": "DLG_023",
+          "text": "If I told you, you'd hate someone else instead of me. I chose me.",
+          "subtitle_safe": true,
+          "chars_per_second": 13.0
+        }
+      ],
+      "reason": "DLG_023 is an anguished trailer-hook line that teases the secret and Meera's claim to her own choice (identity and independence) without revealing the reason, so it avoids major spoilers. The main theme MUS_01, which is melancholic and hopeful, gives an emotional button to end on. DLG_024 is kept outside the range.",
+      "evidence": [
+        "SC05",
+        "DLG_023",
+        "MUS_01"
+      ],
+      "risk_flags": []
+    }
+  ],
+  "transitions": [
+    {
+      "from_clip": "CLIP_001",
+      "to_clip": "CLIP_002",
+      "type": "dissolve",
+      "reason": "scene change SC02 -> SC03: marks the move in time and place"
+    },
+    {
+      "from_clip": "CLIP_002",
+      "to_clip": "CLIP_003",
+      "type": "dissolve",
+      "reason": "scene change SC03 -> SC05: marks the move in time and place"
+    },
+    {
+      "from_clip": "CLIP_003",
+      "to_clip": "CLIP_004",
+      "type": "cut",
+      "reason": "continuous action within SC05"
+    }
+  ],
+  "voice_over": [],
+  "text_cards": [
+    {
+      "card_id": "CARD_HOOK",
+      "text": "If I told you, you'd hate someone else instead of me. I chose me.",
+      "source_dialogue_ids": [
+        "DLG_023"
+      ],
+      "basis": "hook",
+      "position": "after the last segment",
+      "duration_seconds": 3.8
+    }
+  ],
+  "validation": {
+    "verdict": "PASS",
+    "edit_fields": {
+      "status": "PASS",
+      "problems": []
+    },
+    "errors": 0,
+    "warnings": [],
+    "info_count": 3
+  },
+  "decision_log": [
+    {
+      "step": "initial_candidate",
+      "attempt": 0,
+      "detail": "TRL_AAKHRI_CHITTHI_YA_01 from replay llm-planner/claude-opus-5-5/high: CLIP_001 SC02, CLIP_002 SC03, CLIP_003 SC05, CLIP_004 SC05"
+    },
+    {
+      "step": "verification",
+      "attempt": 0,
+      "detail": "eligible: 0 error(s), 0 warning(s)"
+    },
+    {
+      "step": "final_decision",
+      "attempt": null,
+      "detail": "accepted after 0 repair attempt(s)"
+    }
+  ],
+  "human_approvals": [
+    {
+      "role": "editorial",
+      "reason": "final cut sign-off; metadata-only checks, no media inspected"
+    },
+    {
+      "role": "legal",
+      "reason": "confirm the rights and contract records used are current"
+    },
+    {
+      "role": "marketing",
+      "reason": "title, audience promise and hook are marketing copy"
+    }
+  ],
+  "assumptions": [
+    "Eligibility is judged from scene and line metadata; no media file was inspected.",
+    "Timecodes are episode-relative; there is no source-reel mapping.",
+    "Subtitle text is the dialogue text field; reading speed uses the line's spoken duration.",
+    "Rights and contract records in the dataset are assumed current on the evaluation date.",
+    "Transitions and the hook text card are derived by rule, not by the planner; nothing is rendered.",
+    "Planner: recorded live Claude plan (replayed)."
+  ],
+  "estimated_cost": {
+    "model_calls": 1,
+    "estimated_cost": 0.045,
+    "currency": "USD",
+    "input_tokens": 9056,
+    "output_tokens": 3012,
+    "note": "cost-sheet flat rate per model call, not billing; replay makes no call"
+  },
+  "lower_cost_fallback": {
+    "planner": "deterministic mock planner + deterministic repair (0 model calls)",
+    "verdict": "PASS_WITH_WARNINGS",
+    "trailer_id": "TRL_YOUNG_ADULT_MOCK",
+    "duration_seconds": 18.5,
+    "scenes": [
+      "SC02",
+      "SC05",
+      "SC08"
+    ]
+  }
+}

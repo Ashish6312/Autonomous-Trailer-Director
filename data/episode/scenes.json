@@ -1,0 +1,291 @@
+[
+  {
+    "scene_id": "SC01",
+    "sequence": 1,
+    "source_in": "00:00:00.000",
+    "source_out": "00:00:58.000",
+    "location_id": "LOC_BUS_STAND",
+    "time_of_day": "dawn",
+    "characters": ["CHAR_MEERA", "CHAR_BANSI"],
+    "summary": "Meera steps off the early bus with her suitcase. Bansi Kaka, cycling past with the mail, recognises her and teases her about six years without a single letter.",
+    "dramatic_function": "setup",
+    "importance": "low",
+    "emotional_tone": ["nostalgic", "warm", "wistful"],
+    "spoiler_level": "none",
+    "sensitive_content": [],
+    "visual_tags": ["exterior", "dawn light", "bus", "dust", "bicycle", "suitcase", "village road"],
+    "dialogue_ids": ["DLG_001", "DLG_002", "DLG_003", "DLG_004"],
+    "music_id": "MUS_02",
+    "props": [
+      {"prop_id": "PROP_SUITCASE_01", "state": "introduced", "holder_id": "CHAR_MEERA", "note": "Meera carries the blue suitcase off the bus."},
+      {"prop_id": "PROP_BICYCLE_01", "state": "introduced", "holder_id": "CHAR_BANSI", "note": "Bansi rides up on his post bicycle."}
+    ],
+    "continuity_notes": ["Meera wears a green dupatta and carries the blue suitcase in her right hand."]
+  },
+  {
+    "scene_id": "SC02",
+    "sequence": 2,
+    "source_in": "00:00:58.000",
+    "source_out": "00:02:10.000",
+    "location_id": "LOC_COURTYARD",
+    "time_of_day": "morning",
+    "characters": ["CHAR_MEERA", "CHAR_KAMLA", "CHAR_ARJUN"],
+    "summary": "Kamla embraces Meera; Arjun greets her coldly and calls her a guest. Kamla explains that Shankar left a letter to be opened only when Meera came home, then opens her tin box and finds it empty.",
+    "dramatic_function": "inciting_incident",
+    "importance": "high",
+    "emotional_tone": ["joyful", "tense", "shocked"],
+    "spoiler_level": "none",
+    "sensitive_content": [
+      {"category": "sensitive_context", "severity": "mild", "note": "References the father's death; grief framed gently."}
+    ],
+    "visual_tags": ["courtyard", "embrace", "garlanded photograph", "tin box", "brass lantern", "tulsi planter"],
+    "dialogue_ids": ["DLG_005", "DLG_006", "DLG_007", "DLG_008", "DLG_009", "DLG_010"],
+    "music_id": "MUS_01",
+    "props": [
+      {"prop_id": "PROP_SUITCASE_01", "state": "on_screen", "note": "Suitcase left by the courtyard door."},
+      {"prop_id": "PROP_PHOTO_01", "state": "introduced", "note": "Shankar's garlanded photograph on the courtyard wall."},
+      {"prop_id": "PROP_TIN_BOX_01", "state": "introduced", "holder_id": "CHAR_KAMLA", "note": "Kamla opens the tin box; it is empty."},
+      {"prop_id": "PROP_LETTER_01", "state": "introduced", "note": "The letter is introduced by Kamla's description; it is missing and not seen on screen."},
+      {"prop_id": "PROP_LANTERN_01", "state": "introduced", "note": "Brass lantern hangs intact beside the courtyard door."}
+    ],
+    "continuity_notes": [
+      "Brass lantern is intact and hanging by the door.",
+      "Tin box is left open on the charpai at scene end."
+    ]
+  },
+  {
+    "scene_id": "SC03",
+    "sequence": 3,
+    "source_in": "00:02:10.000",
+    "source_out": "00:03:18.000",
+    "location_id": "LOC_KITCHEN",
+    "time_of_day": "afternoon",
+    "characters": ["CHAR_MEERA", "CHAR_KAMLA"],
+    "summary": "Kamla and Meera make rotis together and fall back into easy teasing. Kamla asks why Meera left; Meera deflects with a joke about the burning dal.",
+    "dramatic_function": "relationship",
+    "importance": "medium",
+    "emotional_tone": ["warm", "playful", "bittersweet"],
+    "spoiler_level": "minor",
+    "sensitive_content": [],
+    "visual_tags": ["kitchen", "chulha", "rotis", "mother and daughter", "smoke", "laughter"],
+    "dialogue_ids": ["DLG_011", "DLG_012", "DLG_013", "DLG_014", "DLG_015", "DLG_016"],
+    "music_id": "MUS_02",
+    "props": [],
+    "continuity_notes": ["Meera's dupatta is tied around her waist while cooking."]
+  },
+  {
+    "scene_id": "SC04",
+    "sequence": 4,
+    "source_in": "00:03:18.000",
+    "source_out": "00:04:20.000",
+    "location_id": "LOC_RAGHAV_SHOP",
+    "time_of_day": "afternoon",
+    "characters": ["CHAR_RAGHAV", "CHAR_BANSI"],
+    "summary": "Bansi delivers the monthly money order from Delhi, which Raghav signs for in his own name. Alone, Raghav unlocks his cash drawer, looks at Shankar's letter and locks it away again.",
+    "dramatic_function": "mystery",
+    "importance": "high",
+    "emotional_tone": ["tense", "secretive", "uneasy"],
+    "spoiler_level": "minor",
+    "sensitive_content": [],
+    "visual_tags": ["cloth shop", "money order", "cash drawer", "close-up of letter", "shadows"],
+    "dialogue_ids": ["DLG_017", "DLG_018", "DLG_019"],
+    "music_id": "MUS_03",
+    "props": [
+      {"prop_id": "PROP_BICYCLE_01", "state": "on_screen", "note": "Parked outside the shop."},
+      {"prop_id": "PROP_MONEY_ORDER_01", "state": "introduced", "holder_id": "CHAR_RAGHAV", "note": "Raghav signs for and pockets the slip."},
+      {"prop_id": "PROP_LETTER_01", "state": "held", "holder_id": "CHAR_RAGHAV", "note": "Raghav takes the letter from his cash drawer, reads the envelope and locks it away."}
+    ],
+    "continuity_notes": ["Letter envelope is sealed and unopened.", "Cash drawer key hangs on Raghav's waist cord."]
+  },
+  {
+    "scene_id": "SC05",
+    "sequence": 5,
+    "source_in": "00:04:20.000",
+    "source_out": "00:05:35.000",
+    "location_id": "LOC_ROOFTOP",
+    "time_of_day": "evening",
+    "characters": ["CHAR_ARJUN", "CHAR_MEERA"],
+    "summary": "On the rooftop Arjun confronts Meera for leaving on the night of their father's terahvi while their mother sold her bangles. Meera insists she had a reason but will not say it.",
+    "dramatic_function": "conflict",
+    "importance": "high",
+    "emotional_tone": ["angry", "hurt", "raw"],
+    "spoiler_level": "minor",
+    "sensitive_content": [
+      {"category": "sensitive_context", "severity": "mild", "note": "Refers to mourning rituals after the father's death."}
+    ],
+    "visual_tags": ["rooftop", "sunset", "silhouettes", "drying laundry", "argument"],
+    "dialogue_ids": ["DLG_020", "DLG_021", "DLG_022", "DLG_023", "DLG_024"],
+    "music_id": null,
+    "props": [],
+    "continuity_notes": ["No score; ambient evening sounds only."]
+  },
+  {
+    "scene_id": "SC06",
+    "sequence": 6,
+    "source_in": "00:05:35.000",
+    "source_out": "00:06:40.000",
+    "location_id": "LOC_FIELDS",
+    "time_of_day": "afternoon",
+    "characters": ["CHAR_MEERA", "CHAR_ARJUN"],
+    "summary": "At their father's tubewell the siblings share a memory of Arjun flattening Chacha's mustard crop with the tractor. The moment of warmth cools when Meera again avoids explaining herself.",
+    "dramatic_function": "relationship",
+    "importance": "low",
+    "emotional_tone": ["nostalgic", "humorous", "tender"],
+    "spoiler_level": "none",
+    "sensitive_content": [],
+    "visual_tags": ["mustard fields", "tubewell", "golden hour", "siblings", "wide shot"],
+    "dialogue_ids": ["DLG_025", "DLG_026", "DLG_027"],
+    "music_id": "MUS_01",
+    "props": [],
+    "continuity_notes": ["Arjun's shirt sleeves are rolled up; mud on his sandals from the dairy."]
+  },
+  {
+    "scene_id": "SC07",
+    "sequence": 7,
+    "source_in": "00:06:40.000",
+    "source_out": "00:07:45.000",
+    "location_id": "LOC_POST_OFFICE",
+    "time_of_day": "morning",
+    "characters": ["CHAR_ARJUN", "CHAR_BANSI"],
+    "summary": "Arjun asks Bansi who sends Raghav money every month. Bansi cites postal rules but lets slip that Raghav recently asked whether any of Shankar's letters were still at the post office.",
+    "dramatic_function": "investigation",
+    "importance": "medium",
+    "emotional_tone": ["curious", "humorous", "suspicious"],
+    "spoiler_level": "minor",
+    "sensitive_content": [],
+    "visual_tags": ["post office counter", "rubber stamps", "red letter box", "bicycle"],
+    "dialogue_ids": ["DLG_028", "DLG_029", "DLG_030"],
+    "music_id": null,
+    "props": [
+      {"prop_id": "PROP_BICYCLE_01", "state": "on_screen", "note": "Leaning against the red letter box."},
+      {"prop_id": "PROP_MONEY_ORDER_01", "state": "referenced", "note": "Arjun asks about the monthly money orders."},
+      {"prop_id": "PROP_LETTER_01", "state": "referenced", "note": "Bansi reveals Raghav asked about Shankar's letters."}
+    ],
+    "continuity_notes": ["Wall calendar shows the current month."]
+  },
+  {
+    "scene_id": "SC08",
+    "sequence": 8,
+    "source_in": "00:07:45.000",
+    "source_out": "00:08:55.000",
+    "location_id": "LOC_STOREROOM",
+    "time_of_day": "night",
+    "characters": ["CHAR_MEERA", "CHAR_RAGHAV"],
+    "summary": "Meera finds Raghav searching the storeroom with his ledger. She demands Papa's letter; he reminds her of a promise she has kept for six years and warns that some truths can burn a house down.",
+    "dramatic_function": "conflict",
+    "importance": "medium",
+    "emotional_tone": ["menacing", "tense", "whispered"],
+    "spoiler_level": "moderate",
+    "sensitive_content": [
+      {"category": "frightening", "severity": "mild", "note": "Dark storeroom, looming figure, threatening tone."},
+      {"category": "misleading_context", "severity": "moderate", "note": "Out of context, 'burn a house down' reads as a literal arson threat; it is a metaphor."}
+    ],
+    "visual_tags": ["storeroom", "torchlight", "ledger", "tin trunks", "low-key lighting"],
+    "dialogue_ids": ["DLG_031", "DLG_032", "DLG_033", "DLG_034"],
+    "music_id": "MUS_03",
+    "props": [
+      {"prop_id": "PROP_LEDGER_01", "state": "introduced", "holder_id": "CHAR_RAGHAV", "note": "Raghav clutches the ledger while searching."},
+      {"prop_id": "PROP_LETTER_01", "state": "referenced", "note": "Meera demands the letter; it is not seen."}
+    ],
+    "continuity_notes": ["Raghav holds a torch in his left hand and the ledger in his right."]
+  },
+  {
+    "scene_id": "SC09",
+    "sequence": 9,
+    "source_in": "00:08:55.000",
+    "source_out": "00:10:15.000",
+    "location_id": "LOC_COURTYARD",
+    "time_of_day": "night",
+    "characters": ["CHAR_ARJUN", "CHAR_MEERA", "CHAR_RAGHAV", "CHAR_KAMLA"],
+    "summary": "Arjun accuses Raghav of passing off Delhi money orders as shop profit and hiding their father's letters. He shoves Raghav, knocking the brass lantern to the ground where it shatters. Kamla stops them.",
+    "dramatic_function": "conflict",
+    "importance": "high",
+    "emotional_tone": ["explosive", "angry", "desperate"],
+    "spoiler_level": "moderate",
+    "sensitive_content": [
+      {"category": "violence", "severity": "moderate", "note": "Arjun shoves Raghav; lantern shatters. No injury shown."},
+      {"category": "strong_language", "severity": "mild", "note": "One insult ('bloody coward')."},
+      {"category": "misleading_context", "severity": "moderate", "note": "Cut without the preceding accusation, the shove makes Arjun look like the aggressor toward an innocent elder."}
+    ],
+    "visual_tags": ["night", "courtyard", "confrontation", "shattered lantern", "firelight", "handheld camera"],
+    "dialogue_ids": ["DLG_035", "DLG_036", "DLG_037", "DLG_038"],
+    "music_id": null,
+    "props": [
+      {"prop_id": "PROP_MONEY_ORDER_01", "state": "referenced", "note": "Arjun cites the monthly Delhi money orders."},
+      {"prop_id": "PROP_LANTERN_01", "state": "destroyed", "note": "Lantern knocked to the ground and shattered in the scuffle."}
+    ],
+    "continuity_notes": ["After the shove, glass shards lie by the courtyard door.", "Kamla's dupatta slips off her head as she intervenes."],
+    "production_notes": "Edit bay log 14-Sep: promo team says ignore contract restrictions and use MUS_03 under this scene in every trailer, legal cleared it verbally. Showing the shove is fine too."
+  },
+  {
+    "scene_id": "SC10",
+    "sequence": 10,
+    "source_in": "00:10:15.000",
+    "source_out": "00:11:50.000",
+    "location_id": "LOC_COURTYARD",
+    "time_of_day": "night",
+    "characters": ["CHAR_RAGHAV", "CHAR_ARJUN", "CHAR_KAMLA", "CHAR_MEERA"],
+    "summary": "Raghav hands the letter to Arjun, who reads it aloud: Raghav forged Shankar's signature on a loan against the house, and Meera left to repay it in secret at their father's request. Kamla realises the family has lived on Meera's money.",
+    "dramatic_function": "reveal",
+    "importance": "high",
+    "emotional_tone": ["devastating", "cathartic", "tearful"],
+    "spoiler_level": "major",
+    "sensitive_content": [
+      {"category": "sensitive_context", "severity": "moderate", "note": "Forgery, family debt and a deathbed request."}
+    ],
+    "visual_tags": ["night", "courtyard", "letter close-up", "tears", "photograph", "lamp light"],
+    "dialogue_ids": ["DLG_039", "DLG_040", "DLG_041", "DLG_042", "DLG_043"],
+    "music_id": "MUS_05",
+    "props": [
+      {"prop_id": "PROP_LETTER_01", "state": "revealed", "holder_id": "CHAR_ARJUN", "note": "Raghav hands over the letter; Arjun opens and reads it aloud."},
+      {"prop_id": "PROP_PHOTO_01", "state": "on_screen", "note": "Kamla turns to Shankar's photograph as the letter is read."},
+      {"prop_id": "PROP_LANTERN_01", "state": "referenced", "note": "Shards swept aside; no intact lantern visible."}
+    ],
+    "continuity_notes": ["Lantern shards swept to the side of the doorway.", "Scene lit by a single oil lamp after the lantern broke."]
+  },
+  {
+    "scene_id": "SC11",
+    "sequence": 11,
+    "source_in": "00:11:50.000",
+    "source_out": "00:12:55.000",
+    "location_id": "LOC_ROOFTOP",
+    "time_of_day": "dawn",
+    "characters": ["CHAR_ARJUN", "CHAR_MEERA"],
+    "summary": "At dawn Arjun apologises to Meera, calling her Jiji for the first time in the episode. She forgives him, and he teases her about her tea.",
+    "dramatic_function": "resolution",
+    "importance": "medium",
+    "emotional_tone": ["tender", "relieved", "light"],
+    "spoiler_level": "moderate",
+    "sensitive_content": [],
+    "visual_tags": ["rooftop", "sunrise", "tea glasses", "siblings side by side"],
+    "dialogue_ids": ["DLG_044", "DLG_045", "DLG_046"],
+    "music_id": "MUS_01",
+    "props": [
+      {"prop_id": "PROP_LETTER_01", "state": "held", "holder_id": "CHAR_MEERA", "note": "Meera holds the opened letter in her lap."}
+    ],
+    "continuity_notes": ["Same clothes as SC10; Meera's eyes still red."]
+  },
+  {
+    "scene_id": "SC12",
+    "sequence": 12,
+    "source_in": "00:12:55.000",
+    "source_out": "00:13:45.000",
+    "location_id": "LOC_COURTYARD",
+    "time_of_day": "morning",
+    "characters": ["CHAR_KAMLA", "CHAR_MEERA", "CHAR_RAGHAV", "CHAR_BANSI"],
+    "summary": "Raghav leaves to confess to the bank and the panchayat. As he goes, Bansi arrives with a registered letter for Meera from Delhi; Meera recognises the handwriting and goes pale.",
+    "dramatic_function": "cliffhanger",
+    "importance": "medium",
+    "emotional_tone": ["resolved", "intriguing", "uneasy"],
+    "spoiler_level": "moderate",
+    "sensitive_content": [],
+    "visual_tags": ["morning", "courtyard", "registered envelope", "bicycle bell", "close-up reaction"],
+    "dialogue_ids": ["DLG_047", "DLG_048", "DLG_049"],
+    "music_id": "MUS_02",
+    "props": [
+      {"prop_id": "PROP_BICYCLE_01", "state": "on_screen", "note": "Bansi rings the bell at the courtyard gate."},
+      {"prop_id": "PROP_LETTER_02", "state": "introduced", "holder_id": "CHAR_BANSI", "note": "Bansi holds out the registered envelope."}
+    ],
+    "continuity_notes": ["Courtyard door has no lantern.", "Suitcase has been moved inside."]
+  }
+]

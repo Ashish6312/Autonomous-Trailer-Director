@@ -1,0 +1,579 @@
+{
+  "trailer_id": "TRL_AAKHRI_CHITTHI_HR_01",
+  "audience": "dialect_region",
+  "verdict": "PASS_WITH_WARNINGS",
+  "status": "accepted",
+  "evidence_fingerprint": "f855637bbf6a9b74",
+  "context": {
+    "audience": "dialect_region",
+    "evaluation_date": "2026-11-14",
+    "territory": "IN-HR"
+  },
+  "planner": {
+    "source": "recorded live Claude plan (replayed)",
+    "mode": "replay",
+    "version": "llm-planner/claude-opus-5-5/high",
+    "served_by": "claude-opus-5-5",
+    "latency_seconds": null
+  },
+  "title": "Aakhri Chitthi - Bansi Kaka Ki Dak",
+  "audience_promise": "A warm, wry village trailer built around Bansi Kaka the postman and the everyday texture of Meera's homecoming: kitchen teasing, tubewell memories and postal-rule evasions. Original-language lines and kinship terms (Kaka, Maa, Chacha, Munna) stay intact, and nothing from the resolution is shown.",
+  "hook": {
+    "text": "Six years I've delivered letters to that house. Not one ever came from you.",
+    "source_dialogue_ids": [
+      "DLG_003"
+    ]
+  },
+  "rationale": "This plan opens on the setup scene with Bansi Kaka recognising Meera, which matches the preferred setup opening. It then moves through a mother-daughter roti scene and a sibling tubewell memory for family warmth and regional humour. It closes on Bansi's wry postal-rules dodge, which hints at the mystery without revealing anything. Clips run in story order (SC01, SC03, SC06, SC07) and each keeps its dialogue whole for moderate pacing. Total runtime is about 54s, under the 75s maximum. No protected or unavailable items are used. Several lines carry DIALECT_REVIEW_REQUIRED or SUBTITLE_REVIEW_REQUIRED flags and should be checked by a native reviewer before release.",
+  "emotional_journey": [
+    {
+      "clip_id": "CLIP_001",
+      "scene_id": "SC01",
+      "dramatic_function": "setup",
+      "emotional_tone": [
+        "nostalgic",
+        "warm",
+        "wistful"
+      ]
+    },
+    {
+      "clip_id": "CLIP_002",
+      "scene_id": "SC03",
+      "dramatic_function": "relationship",
+      "emotional_tone": [
+        "warm",
+        "playful",
+        "bittersweet"
+      ]
+    },
+    {
+      "clip_id": "CLIP_003",
+      "scene_id": "SC06",
+      "dramatic_function": "relationship",
+      "emotional_tone": [
+        "nostalgic",
+        "humorous",
+        "tender"
+      ]
+    },
+    {
+      "clip_id": "CLIP_004",
+      "scene_id": "SC07",
+      "dramatic_function": "investigation",
+      "emotional_tone": [
+        "curious",
+        "humorous",
+        "suspicious"
+      ]
+    }
+  ],
+  "duration_seconds": 56.0,
+  "target_duration_seconds": 60,
+  "max_duration_seconds": 75,
+  "segments": [
+    {
+      "clip_id": "CLIP_001",
+      "scene_id": "SC01",
+      "source_in": "00:00:12.000",
+      "source_out": "00:00:29.000",
+      "duration_seconds": 17.0,
+      "purpose": "Open on village texture and introduce Bansi Kaka as the heart of the trailer; deliver the hook line.",
+      "video": {
+        "scene_id": "SC01",
+        "location": "Village bus stand",
+        "time_of_day": "dawn",
+        "characters": [
+          "Meera Sharma",
+          "Bansi Lal"
+        ],
+        "visual_tags": [
+          "exterior",
+          "dawn light",
+          "bus",
+          "dust",
+          "bicycle",
+          "suitcase",
+          "village road"
+        ]
+      },
+      "audio": {
+        "dialogue": [
+          {
+            "dialogue_id": "DLG_001",
+            "speaker": "Bansi Lal",
+            "start": "00:00:14.000",
+            "end": "00:00:17.500"
+          },
+          {
+            "dialogue_id": "DLG_002",
+            "speaker": "Meera Sharma",
+            "start": "00:00:18.200",
+            "end": "00:00:21.000"
+          },
+          {
+            "dialogue_id": "DLG_003",
+            "speaker": "Bansi Lal",
+            "start": "00:00:23.000",
+            "end": "00:00:28.500"
+          }
+        ],
+        "music": {
+          "music_id": "MUS_02",
+          "title": "Aangan Ki Dhoop",
+          "mood": [
+            "warm",
+            "folk",
+            "uplifting"
+          ]
+        }
+      },
+      "subtitles": [
+        {
+          "dialogue_id": "DLG_001",
+          "text": "Arre! Is that Shankar's Meera, or am I finally going blind?",
+          "subtitle_safe": true,
+          "chars_per_second": 16.9
+        },
+        {
+          "dialogue_id": "DLG_002",
+          "text": "Your eyes are fine, Bansi Kaka. It's me.",
+          "subtitle_safe": false,
+          "chars_per_second": 14.3
+        },
+        {
+          "dialogue_id": "DLG_003",
+          "text": "Six years I've delivered letters to that house. Not one ever came from you.",
+          "subtitle_safe": true,
+          "chars_per_second": 13.6
+        }
+      ],
+      "reason": "SC01 is a setup scene, a preferred opening function, and features Bansi Kaka on his mail round. DLG_001 is his playful recognition, DLG_002 keeps the kinship term 'Bansi Kaka', and DLG_003 is the wistful hook about six years without a letter. The range ends before DLG_004 at 00:00:30.000. MUS_02 (warm folk) suits the authentic, warm tone.",
+      "evidence": [
+        "SC01",
+        "DLG_001",
+        "DLG_002",
+        "DLG_003",
+        "MUS_02"
+      ],
+      "risk_flags": [
+        {
+          "rule_id": "ACCESSIBILITY_SUBTITLE_001",
+          "reason_code": "SUBTITLE_REVIEW_REQUIRED",
+          "entity_id": "DLG_002",
+          "message": "Dialogue DLG_002 is not subtitle-safe: 'Kaka' is an honorific here, not kinship; subtitle localisation must not render it as 'uncle'."
+        },
+        {
+          "rule_id": "DIALECT_REVIEW_001",
+          "reason_code": "DIALECT_REVIEW_REQUIRED",
+          "entity_id": "DLG_002",
+          "message": "Dialogue DLG_002 uses the regional address term(s) Kaka."
+        }
+      ]
+    },
+    {
+      "clip_id": "CLIP_002",
+      "scene_id": "SC03",
+      "source_in": "00:02:17.000",
+      "source_out": "00:02:28.000",
+      "duration_seconds": 11.0,
+      "purpose": "Show domestic village life and warm mother-daughter humour.",
+      "video": {
+        "scene_id": "SC03",
+        "location": "Sharma kitchen",
+        "time_of_day": "afternoon",
+        "characters": [
+          "Meera Sharma",
+          "Kamla Sharma"
+        ],
+        "visual_tags": [
+          "kitchen",
+          "chulha",
+          "rotis",
+          "mother and daughter",
+          "smoke",
+          "laughter"
+        ]
+      },
+      "audio": {
+        "dialogue": [
+          {
+            "dialogue_id": "DLG_011",
+            "speaker": "Kamla Sharma",
+            "start": "00:02:18.000",
+            "end": "00:02:22.000"
+          },
+          {
+            "dialogue_id": "DLG_012",
+            "speaker": "Meera Sharma",
+            "start": "00:02:23.000",
+            "end": "00:02:27.000"
+          }
+        ],
+        "music": {
+          "music_id": "MUS_02",
+          "title": "Aangan Ki Dhoop",
+          "mood": [
+            "warm",
+            "folk",
+            "uplifting"
+          ]
+        }
+      },
+      "subtitles": [
+        {
+          "dialogue_id": "DLG_011",
+          "text": "Roll it thinner. Do they not have rotis in Delhi?",
+          "subtitle_safe": true,
+          "chars_per_second": 12.2
+        },
+        {
+          "dialogue_id": "DLG_012",
+          "text": "They have rotis, Maa. They just don't have you shouting at them.",
+          "subtitle_safe": true,
+          "chars_per_second": 16.0
+        }
+      ],
+      "reason": "SC03 is a relationship scene with warm and playful tones. In DLG_011 Kamla teases Meera about rolling rotis, and DLG_012 answers with humour and keeps the kinship term 'Maa'. Together they deliver regional humour and family warmth. The range stops before DLG_013 at 00:02:35.000.",
+      "evidence": [
+        "SC03",
+        "DLG_011",
+        "DLG_012",
+        "MUS_02"
+      ],
+      "risk_flags": [
+        {
+          "rule_id": "DIALECT_REVIEW_001",
+          "reason_code": "DIALECT_REVIEW_REQUIRED",
+          "entity_id": "DLG_012",
+          "message": "Dialogue DLG_012 uses the regional address term(s) Maa."
+        }
+      ]
+    },
+    {
+      "clip_id": "CLIP_003",
+      "scene_id": "SC06",
+      "source_in": "00:05:44.000",
+      "source_out": "00:05:57.000",
+      "duration_seconds": 13.0,
+      "purpose": "Sibling nostalgia rooted in farm life: the tractor and Chacha's mustard crop.",
+      "video": {
+        "scene_id": "SC06",
+        "location": "Sharma fields and tubewell",
+        "time_of_day": "afternoon",
+        "characters": [
+          "Meera Sharma",
+          "Arjun Sharma"
+        ],
+        "visual_tags": [
+          "mustard fields",
+          "tubewell",
+          "golden hour",
+          "siblings",
+          "wide shot"
+        ]
+      },
+      "audio": {
+        "dialogue": [
+          {
+            "dialogue_id": "DLG_025",
+            "speaker": "Meera Sharma",
+            "start": "00:05:45.000",
+            "end": "00:05:50.000"
+          },
+          {
+            "dialogue_id": "DLG_026",
+            "speaker": "Arjun Sharma",
+            "start": "00:05:51.000",
+            "end": "00:05:55.000"
+          }
+        ],
+        "music": {
+          "music_id": "MUS_02",
+          "title": "Aangan Ki Dhoop",
+          "mood": [
+            "warm",
+            "folk",
+            "uplifting"
+          ]
+        }
+      },
+      "subtitles": [
+        {
+          "dialogue_id": "DLG_025",
+          "text": "Remember when Papa let you drive the tractor and you flattened Chacha's mustard?",
+          "subtitle_safe": false,
+          "chars_per_second": 16.0
+        },
+        {
+          "dialogue_id": "DLG_026",
+          "text": "He didn't speak to me for a whole month. Best month of my life.",
+          "subtitle_safe": true,
+          "chars_per_second": 15.8
+        }
+      ],
+      "reason": "SC06 is a nostalgic, humorous relationship scene at the family tubewell. DLG_025 recalls the tractor and 'Chacha's mustard', rural detail with an intact kinship term. DLG_026 is Arjun's dry, wry punchline. The range ends before DLG_027 at 00:06:05.000.",
+      "evidence": [
+        "SC06",
+        "DLG_025",
+        "DLG_026",
+        "MUS_02"
+      ],
+      "risk_flags": [
+        {
+          "rule_id": "ACCESSIBILITY_SUBTITLE_001",
+          "reason_code": "SUBTITLE_REVIEW_REQUIRED",
+          "entity_id": "DLG_025",
+          "message": "Dialogue DLG_025 is not subtitle-safe: 'Chacha' means father's younger brother (Raghav); must not be localised as a generic 'uncle' that could be confused with Bansi Kaka."
+        },
+        {
+          "rule_id": "DIALECT_REVIEW_001",
+          "reason_code": "DIALECT_REVIEW_REQUIRED",
+          "entity_id": "DLG_025",
+          "message": "Dialogue DLG_025 uses the regional address term(s) Chacha, Papa."
+        }
+      ]
+    },
+    {
+      "clip_id": "CLIP_004",
+      "scene_id": "SC07",
+      "source_in": "00:06:49.000",
+      "source_out": "00:07:04.000",
+      "duration_seconds": 15.0,
+      "purpose": "Close on Bansi Kaka's wry evasion to tease the mystery without resolving it.",
+      "video": {
+        "scene_id": "SC07",
+        "location": "Village branch post office",
+        "time_of_day": "morning",
+        "characters": [
+          "Arjun Sharma",
+          "Bansi Lal"
+        ],
+        "visual_tags": [
+          "post office counter",
+          "rubber stamps",
+          "red letter box",
+          "bicycle"
+        ]
+      },
+      "audio": {
+        "dialogue": [
+          {
+            "dialogue_id": "DLG_028",
+            "speaker": "Arjun Sharma",
+            "start": "00:06:50.000",
+            "end": "00:06:55.000"
+          },
+          {
+            "dialogue_id": "DLG_029",
+            "speaker": "Bansi Lal",
+            "start": "00:06:57.000",
+            "end": "00:07:03.000"
+          }
+        ],
+        "music": {
+          "music_id": "MUS_04",
+          "title": "Dhol Hit Stinger 03",
+          "mood": [
+            "energetic",
+            "punchy"
+          ]
+        }
+      },
+      "subtitles": [
+        {
+          "dialogue_id": "DLG_028",
+          "text": "Kaka, who sends Chacha a money order every month?",
+          "subtitle_safe": false,
+          "chars_per_second": 9.8
+        },
+        {
+          "dialogue_id": "DLG_029",
+          "text": "Postal rules, Munna. The sender's name is between the sender and the Sarkar.",
+          "subtitle_safe": true,
+          "chars_per_second": 12.7
+        }
+      ],
+      "reason": "SC07 is an investigation scene with a humorous, curious tone. DLG_028 keeps 'Kaka' and 'Chacha' as Arjun probes, and DLG_029 gives Bansi's 'Postal rules, Munna... the Sarkar' line, a local-character moment of regional humour. The clip ends before DLG_030 at 00:07:10.000 so nothing further about the mystery is revealed. MUS_04 (dhol stinger) punctuates the button.",
+      "evidence": [
+        "SC07",
+        "DLG_028",
+        "DLG_029",
+        "MUS_04"
+      ],
+      "risk_flags": [
+        {
+          "rule_id": "ACCESSIBILITY_SUBTITLE_001",
+          "reason_code": "SUBTITLE_REVIEW_REQUIRED",
+          "entity_id": "DLG_028",
+          "message": "Dialogue DLG_028 is not subtitle-safe: Uses both 'Kaka' (honorific for Bansi) and 'Chacha' (kinship for Raghav) in one line."
+        },
+        {
+          "rule_id": "DIALECT_REVIEW_001",
+          "reason_code": "DIALECT_REVIEW_REQUIRED",
+          "entity_id": "DLG_028",
+          "message": "Dialogue DLG_028 uses the regional address term(s) Chacha, Kaka."
+        },
+        {
+          "rule_id": "DIALECT_REVIEW_001",
+          "reason_code": "DIALECT_REVIEW_REQUIRED",
+          "entity_id": "DLG_029",
+          "message": "Dialogue DLG_029 uses the regional address term(s) Munna."
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from_clip": "CLIP_001",
+      "to_clip": "CLIP_002",
+      "type": "dissolve",
+      "reason": "scene change SC01 -> SC03: marks the move in time and place"
+    },
+    {
+      "from_clip": "CLIP_002",
+      "to_clip": "CLIP_003",
+      "type": "dissolve",
+      "reason": "scene change SC03 -> SC06: marks the move in time and place"
+    },
+    {
+      "from_clip": "CLIP_003",
+      "to_clip": "CLIP_004",
+      "type": "dissolve",
+      "reason": "scene change SC06 -> SC07: marks the move in time and place"
+    }
+  ],
+  "voice_over": [],
+  "text_cards": [
+    {
+      "card_id": "CARD_HOOK",
+      "text": "Six years I've delivered letters to that house. Not one ever came from you.",
+      "source_dialogue_ids": [
+        "DLG_003"
+      ],
+      "basis": "hook",
+      "position": "after the last segment",
+      "duration_seconds": 4.4
+    }
+  ],
+  "validation": {
+    "verdict": "PASS_WITH_WARNINGS",
+    "edit_fields": {
+      "status": "PASS",
+      "problems": []
+    },
+    "errors": 0,
+    "warnings": [
+      {
+        "rule_id": "ACCESSIBILITY_SUBTITLE_001",
+        "reason_code": "SUBTITLE_REVIEW_REQUIRED",
+        "entity_id": "DLG_002",
+        "message": "Dialogue DLG_002 is not subtitle-safe: 'Kaka' is an honorific here, not kinship; subtitle localisation must not render it as 'uncle'."
+      },
+      {
+        "rule_id": "DIALECT_REVIEW_001",
+        "reason_code": "DIALECT_REVIEW_REQUIRED",
+        "entity_id": "DLG_002",
+        "message": "Dialogue DLG_002 uses the regional address term(s) Kaka."
+      },
+      {
+        "rule_id": "DIALECT_REVIEW_001",
+        "reason_code": "DIALECT_REVIEW_REQUIRED",
+        "entity_id": "DLG_012",
+        "message": "Dialogue DLG_012 uses the regional address term(s) Maa."
+      },
+      {
+        "rule_id": "ACCESSIBILITY_SUBTITLE_001",
+        "reason_code": "SUBTITLE_REVIEW_REQUIRED",
+        "entity_id": "DLG_025",
+        "message": "Dialogue DLG_025 is not subtitle-safe: 'Chacha' means father's younger brother (Raghav); must not be localised as a generic 'uncle' that could be confused with Bansi Kaka."
+      },
+      {
+        "rule_id": "DIALECT_REVIEW_001",
+        "reason_code": "DIALECT_REVIEW_REQUIRED",
+        "entity_id": "DLG_025",
+        "message": "Dialogue DLG_025 uses the regional address term(s) Chacha, Papa."
+      },
+      {
+        "rule_id": "ACCESSIBILITY_SUBTITLE_001",
+        "reason_code": "SUBTITLE_REVIEW_REQUIRED",
+        "entity_id": "DLG_028",
+        "message": "Dialogue DLG_028 is not subtitle-safe: Uses both 'Kaka' (honorific for Bansi) and 'Chacha' (kinship for Raghav) in one line."
+      },
+      {
+        "rule_id": "DIALECT_REVIEW_001",
+        "reason_code": "DIALECT_REVIEW_REQUIRED",
+        "entity_id": "DLG_028",
+        "message": "Dialogue DLG_028 uses the regional address term(s) Chacha, Kaka."
+      },
+      {
+        "rule_id": "DIALECT_REVIEW_001",
+        "reason_code": "DIALECT_REVIEW_REQUIRED",
+        "entity_id": "DLG_029",
+        "message": "Dialogue DLG_029 uses the regional address term(s) Munna."
+      }
+    ],
+    "info_count": 3
+  },
+  "decision_log": [
+    {
+      "step": "initial_candidate",
+      "attempt": 0,
+      "detail": "TRL_AAKHRI_CHITTHI_HR_01 from replay llm-planner/claude-opus-5-5/high: CLIP_001 SC01, CLIP_002 SC03, CLIP_003 SC06, CLIP_004 SC07"
+    },
+    {
+      "step": "verification",
+      "attempt": 0,
+      "detail": "eligible: 0 error(s), 8 warning(s)"
+    },
+    {
+      "step": "final_decision",
+      "attempt": null,
+      "detail": "accepted after 0 repair attempt(s)"
+    }
+  ],
+  "human_approvals": [
+    {
+      "role": "editorial",
+      "reason": "final cut sign-off; metadata-only checks, no media inspected"
+    },
+    {
+      "role": "legal",
+      "reason": "confirm the rights and contract records used are current"
+    },
+    {
+      "role": "cultural",
+      "reason": "DIALECT_REVIEW_REQUIRED, SUBTITLE_REVIEW_REQUIRED"
+    },
+    {
+      "role": "marketing",
+      "reason": "title, audience promise and hook are marketing copy"
+    }
+  ],
+  "assumptions": [
+    "Eligibility is judged from scene and line metadata; no media file was inspected.",
+    "Timecodes are episode-relative; there is no source-reel mapping.",
+    "Subtitle text is the dialogue text field; reading speed uses the line's spoken duration.",
+    "Rights and contract records in the dataset are assumed current on the evaluation date.",
+    "Transitions and the hook text card are derived by rule, not by the planner; nothing is rendered.",
+    "Planner: recorded live Claude plan (replayed)."
+  ],
+  "estimated_cost": {
+    "model_calls": 1,
+    "estimated_cost": 0.045,
+    "currency": "USD",
+    "input_tokens": 10602,
+    "output_tokens": 3157,
+    "note": "cost-sheet flat rate per model call, not billing; replay makes no call"
+  },
+  "lower_cost_fallback": {
+    "planner": "deterministic mock planner + deterministic repair (0 model calls)",
+    "verdict": "PASS_WITH_WARNINGS",
+    "trailer_id": "TRL_DIALECT_REGION_MOCK",
+    "duration_seconds": 23.0,
+    "scenes": [
+      "SC01",
+      "SC03",
+      "SC07"
+    ]
+  }
+}

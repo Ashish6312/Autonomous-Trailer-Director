@@ -1,0 +1,28 @@
+{
+  "currency": "USD",
+  "effective_from": "2026-09-01",
+  "notes": "Synthetic unit costs for run budgeting; not vendor pricing.",
+  "unit_costs": [
+    {"item_id": "story_analysis_model_call", "category": "model_call", "unit": "call", "unit_cost": 0.03, "description": "Model call that summarises scenes into a story map."},
+    {"item_id": "planner_model_call", "category": "model_call", "unit": "call", "unit_cost": 0.045, "description": "Model call that drafts an audience-specific edit plan."},
+    {"item_id": "repair_model_call", "category": "model_call", "unit": "call", "unit_cost": 0.02, "description": "Model call that repairs a rejected plan."},
+    {"item_id": "verifier_model_call", "category": "validation_call", "unit": "call", "unit_cost": 0.015, "description": "Independent model review of a plan's creative claims."},
+    {"item_id": "deterministic_validation", "category": "validation_call", "unit": "run", "unit_cost": 0.0, "description": "Local rule checks against source evidence; no external cost."},
+    {"item_id": "proxy_clip_render", "category": "media_processing", "unit": "clip", "unit_cost": 0.012, "description": "Low-resolution proxy render of one edit segment."},
+    {"item_id": "thumbnail_extract", "category": "media_processing", "unit": "frame", "unit_cost": 0.001, "description": "Single frame extraction for review."},
+    {"item_id": "evidence_lookup", "category": "tool_call", "unit": "call", "unit_cost": 0.0002, "description": "Structured lookup of scenes, dialogue or rights."},
+    {"item_id": "rights_check", "category": "tool_call", "unit": "call", "unit_cost": 0.0005, "description": "Rights availability check for an asset, audience and date."}
+  ],
+  "limits": {
+    "max_model_calls": 24,
+    "max_tool_calls": 150,
+    "max_media_operations": 40,
+    "max_estimated_total_cost": 1.5
+  },
+  "fallback_strategy": {
+    "on_budget_exhausted": "return_best_verified_plan",
+    "on_provider_unavailable": "use_replay_fixtures",
+    "max_provider_retries": 2,
+    "retry_backoff_seconds": 2.0
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "format_version": 1,
+  "planner_version": "recorded-planner-fixture-0.1",
+  "recorded_at": "2026-09-29T12:00:00+05:30",
+  "recorded_for": {
+    "episode_id": "EP_AAKHRI_CHITTHI_S01E01",
+    "audience": "young_adult",
+    "evidence_fingerprint": "f855637bbf6a9b74"
+  },
+  "model_calls": 1,
+  "response": {
+    "audience": "young_adult",
+    "trailer_id": "TRL_YOUNG_ADULT_REPLAY",
+    "title": "Aakhri Chitthi: Why Did She Leave?",
+    "hook": "If I told you, you'd hate someone else instead of me. I chose me.",
+    "positioning": "A sibling showdown over a secret that one of them has kept for six years.",
+    "rationale": "Recorded plan: fast cuts between conflict beats, ending on the strongest emotional line.",
+    "clips": [
+      {
+        "clip_id": "CLIP_001",
+        "scene_id": "SC05",
+        "source_in": "00:04:54.500",
+        "source_out": "00:05:14.500",
+        "dialogue_ids": [
+          "DLG_023",
+          "DLG_024"
+        ],
+        "music_id": "MUS_01",
+        "purpose": "sibling_conflict",
+        "reason": "Arjun and Meera's rooftop clash (DLG_023 'I chose me', DLG_024) is the core sibling conflict; SC05 scored 79 with young adults in CMP_PRELAUNCH_CLIPS.",
+        "evidence": [
+          "SC05",
+          "DLG_023",
+          "DLG_024",
+          "CMP_PRELAUNCH_CLIPS"
+        ]
+      },
+      {
+        "clip_id": "CLIP_002",
+        "scene_id": "SC08",
+        "source_in": "00:07:54.500",
+        "source_out": "00:07:59.500",
+        "dialogue_ids": [
+          "DLG_031"
+        ],
+        "music_id": "MUS_01",
+        "purpose": "secret_tension",
+        "reason": "Meera confronting Raghav in the storeroom (DLG_031) raises the question of what he is hiding.",
+        "evidence": [
+          "SC08",
+          "DLG_031",
+          "CHAR_RAGHAV"
+        ]
+      },
+      {
+        "clip_id": "CLIP_003",
+        "scene_id": "SC10",
+        "source_in": "00:11:14.500",
+        "source_out": "00:11:19.500",
+        "dialogue_ids": [
+          "DLG_042"
+        ],
+        "music_id": "MUS_01",
+        "purpose": "emotional_payoff",
+        "reason": "Kamla's 'Every rupee...' (DLG_042) is the most emotional line in the episode; SC10 had the highest young-adult engagement (91).",
+        "evidence": [
+          "SC10",
+          "DLG_042",
+          "CMP_PRELAUNCH_CLIPS"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "actor_id": "ACT_01",
+    "performer_name": "Ananya Rathi",
+    "character_id": "CHAR_MEERA",
+    "promotional_use": "full",
+    "territories": ["WORLDWIDE"],
+    "allowed_audiences": ["family", "young_adult", "dialect_region"],
+    "valid_from": "2026-08-01",
+    "valid_until": "2028-07-31",
+    "restrictions": []
+  },
+  {
+    "actor_id": "ACT_02",
+    "performer_name": "Kunal Dhankhar",
+    "character_id": "CHAR_ARJUN",
+    "promotional_use": "full",
+    "territories": ["IN"],
+    "allowed_audiences": ["family", "young_adult", "dialect_region"],
+    "valid_from": "2026-08-01",
+    "valid_until": "2027-12-31",
+    "restrictions": []
+  },
+  {
+    "actor_id": "ACT_03",
+    "performer_name": "Sunita Malik",
+    "character_id": "CHAR_KAMLA",
+    "promotional_use": "full",
+    "territories": ["IN"],
+    "allowed_audiences": ["family", "young_adult", "dialect_region"],
+    "valid_from": "2026-08-01",
+    "valid_until": "2027-12-31",
+    "restrictions": [
+      {
+        "code": "approval_required_tearful_closeup",
+        "description": "Performer approval is required before any tearful close-up from the listed scenes is used in promotion.",
+        "effect": "requires_approval",
+        "scene_ids": ["SC10"]
+      }
+    ]
+  },
+  {
+    "actor_id": "ACT_04",
+    "performer_name": "Vikram Dahiya",
+    "character_id": "CHAR_RAGHAV",
+    "promotional_use": "limited",
+    "territories": ["IN"],
+    "allowed_audiences": ["family", "young_adult", "dialect_region"],
+    "valid_from": "2026-08-01",
+    "valid_until": "2027-06-30",
+    "restrictions": [
+      {
+        "code": "no_physical_altercation_footage",
+        "description": "Contract excludes promotional use of footage showing the performer in a physical altercation.",
+        "effect": "prohibit",
+        "scene_ids": ["SC09"]
+      }
+    ]
+  },
+  {
+    "actor_id": "ACT_05",
+    "performer_name": "Ramphal Sheoran",
+    "character_id": "CHAR_BANSI",
+    "promotional_use": "limited",
+    "territories": ["IN-HR"],
+    "allowed_audiences": ["dialect_region"],
+    "valid_from": "2026-09-01",
+    "valid_until": "2026-12-31",
+    "restrictions": [
+      {
+        "code": "regional_campaigns_only",
+        "description": "Guest-appearance agreement: likeness and voice may be used only in Haryana regional campaigns until the end of 2026.",
+        "effect": "prohibit",
+        "scene_ids": []
+      }
+    ]
+  }
+]

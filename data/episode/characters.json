@@ -1,0 +1,106 @@
+[
+  {
+    "character_id": "CHAR_MEERA",
+    "name": "Meera Sharma",
+    "role": "lead",
+    "age": 29,
+    "description": "Elder daughter of the Sharma family. Left for Delhi six years ago without explanation and works as a bank clerk there.",
+    "aliases": [
+      {"alias": "Meeru", "used_by": ["CHAR_KAMLA"], "note": "Childhood pet name used only by her mother."},
+      {"alias": "Jiji", "used_by": ["CHAR_ARJUN"], "note": "Regional address term for an elder sister; Arjun uses it only once the two reconcile."},
+      {"alias": "Meera beti", "used_by": ["CHAR_BANSI", "CHAR_RAGHAV"], "note": "Affectionate address by elders; 'beti' means daughter but does not imply parentage."}
+    ],
+    "relationships": [
+      {"character_id": "CHAR_ARJUN", "relation": "younger_brother"},
+      {"character_id": "CHAR_KAMLA", "relation": "mother"},
+      {"character_id": "CHAR_SHANKAR", "relation": "father", "note": "Deceased six years before the episode."},
+      {"character_id": "CHAR_RAGHAV", "relation": "paternal_uncle", "note": "Father's younger brother (Chacha)."},
+      {"character_id": "CHAR_BANSI", "relation": "family_acquaintance", "note": "Village postman; not a relative."}
+    ]
+  },
+  {
+    "character_id": "CHAR_ARJUN",
+    "name": "Arjun Sharma",
+    "role": "lead",
+    "age": 22,
+    "description": "Meera's younger brother. Left his engineering course the year she went away and now runs the family's small dairy.",
+    "aliases": [
+      {"alias": "Munna", "used_by": ["CHAR_RAGHAV", "CHAR_BANSI"], "note": "Common affectionate pet name for a boy; elders still use it for Arjun, which he resents."}
+    ],
+    "relationships": [
+      {"character_id": "CHAR_MEERA", "relation": "elder_sister"},
+      {"character_id": "CHAR_KAMLA", "relation": "mother"},
+      {"character_id": "CHAR_SHANKAR", "relation": "father", "note": "Deceased."},
+      {"character_id": "CHAR_RAGHAV", "relation": "paternal_uncle", "note": "Father's younger brother (Chacha)."},
+      {"character_id": "CHAR_BANSI", "relation": "family_acquaintance", "note": "Addresses him as 'Kaka' out of respect; not a relative."}
+    ]
+  },
+  {
+    "character_id": "CHAR_KAMLA",
+    "name": "Kamla Sharma",
+    "role": "main",
+    "age": 54,
+    "description": "Widowed mother of Meera and Arjun. Holds the household together and kept her late husband's letter for six years.",
+    "aliases": [
+      {"alias": "Maa", "used_by": ["CHAR_MEERA", "CHAR_ARJUN"], "note": "Mother."},
+      {"alias": "Bhabhi", "used_by": ["CHAR_RAGHAV", "CHAR_BANSI"], "note": "Literally elder brother's wife. Kinship for Raghav; for Bansi it is a courtesy form of address, not kinship."}
+    ],
+    "relationships": [
+      {"character_id": "CHAR_MEERA", "relation": "daughter"},
+      {"character_id": "CHAR_ARJUN", "relation": "son"},
+      {"character_id": "CHAR_SHANKAR", "relation": "late_husband"},
+      {"character_id": "CHAR_RAGHAV", "relation": "brother_in_law", "note": "Husband's younger brother (devar)."},
+      {"character_id": "CHAR_BANSI", "relation": "family_acquaintance"}
+    ]
+  },
+  {
+    "character_id": "CHAR_RAGHAV",
+    "name": "Raghav Sharma",
+    "role": "main",
+    "age": 48,
+    "description": "Shankar's younger brother; owns a cloth shop in the village market. Presents himself as the family's provider.",
+    "aliases": [
+      {"alias": "Chacha", "used_by": ["CHAR_MEERA", "CHAR_ARJUN"], "note": "Father's younger brother. Distinct from 'Tau' (father's elder brother) and from 'Kaka', which Bansi is called only as an honorific."}
+    ],
+    "relationships": [
+      {"character_id": "CHAR_SHANKAR", "relation": "elder_brother", "note": "Deceased."},
+      {"character_id": "CHAR_KAMLA", "relation": "sister_in_law", "note": "Elder brother's wife (Bhabhi)."},
+      {"character_id": "CHAR_MEERA", "relation": "niece"},
+      {"character_id": "CHAR_ARJUN", "relation": "nephew"},
+      {"character_id": "CHAR_BANSI", "relation": "acquaintance"}
+    ]
+  },
+  {
+    "character_id": "CHAR_BANSI",
+    "name": "Bansi Lal",
+    "role": "supporting",
+    "age": 63,
+    "description": "The village postman for thirty years. Talkative, warm and scrupulous about postal rules.",
+    "aliases": [
+      {"alias": "Bansi Kaka", "used_by": ["CHAR_MEERA", "CHAR_ARJUN"], "note": "'Kaka' is used here as a respectful address for an older man. Bansi is NOT related to the Sharma family."}
+    ],
+    "relationships": [
+      {"character_id": "CHAR_KAMLA", "relation": "family_acquaintance"},
+      {"character_id": "CHAR_MEERA", "relation": "family_acquaintance"},
+      {"character_id": "CHAR_ARJUN", "relation": "family_acquaintance"},
+      {"character_id": "CHAR_RAGHAV", "relation": "acquaintance", "note": "Delivers his monthly money orders."},
+      {"character_id": "CHAR_SHANKAR", "relation": "old_friend", "note": "Deceased."}
+    ]
+  },
+  {
+    "character_id": "CHAR_SHANKAR",
+    "name": "Shankar Sharma",
+    "role": "referenced",
+    "age": null,
+    "description": "Meera and Arjun's late father, who died six years before the episode. Seen only in a framed photograph and heard only through his letter.",
+    "aliases": [
+      {"alias": "Papa", "used_by": ["CHAR_MEERA", "CHAR_ARJUN"], "note": "Father."}
+    ],
+    "relationships": [
+      {"character_id": "CHAR_KAMLA", "relation": "wife"},
+      {"character_id": "CHAR_MEERA", "relation": "daughter"},
+      {"character_id": "CHAR_ARJUN", "relation": "son"},
+      {"character_id": "CHAR_RAGHAV", "relation": "younger_brother"}
+    ]
+  }
+]
